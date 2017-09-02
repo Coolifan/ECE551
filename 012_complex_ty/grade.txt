@@ -1,0 +1,9 @@
+Grading at 09/02/2017:19:22:09.057000
+For commit ID de4e478135967254f3d8d74b42a14d0573804126
+I expected to find a file called 'mytypes.c' but it did not exist
+(or was not a regular file)
+Here are the files that I can find:
+mytype.c
+README
+
+Overall Grade: FAILED
