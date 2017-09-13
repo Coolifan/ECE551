@@ -16,9 +16,10 @@ size_t maxSeq(int *array, size_t n)
     else {
       if (count >= result1) {
 	result1 = count;
-	count = 0;
+	//count = 0;
       }
-    }
+      count = 0;
+    } 
   }
   return result2>result1 ? result2+1 : result1+1;
 }
