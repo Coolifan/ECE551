@@ -3,6 +3,8 @@
 
 size_t maxSeq(int *array, size_t n)
 {
+  if (n == 0)
+    return 0;
   size_t count = 0;
   size_t result1 = 0;
   size_t result2 = 0;
