@@ -1,10 +1,10 @@
-Grading at 09/13/2017:14:49:22.961675
-For commit ID 95767d57cd7ed5f2ea19e5b8095be233d553c8ec
+Grading at 09/13/2017:14:55:33.277243
+For commit ID 3c0a588ecb0f2ce4f423345c685fed4b08bf5c4a
 Attempting to compile maxSeq.c 
 Linking your object file with our test main
 #################################################
 testcase2:
-array size:0 was Incorrect
+array size:0 was Correct
 #################################################
 testcase3:
 array size:1 was Correct
@@ -15,4 +15,4 @@ array size:100 was Incorrect
 testcase5:
 array size:5000 was Incorrect
 
-Overall Grade: F
+Overall Grade: D
