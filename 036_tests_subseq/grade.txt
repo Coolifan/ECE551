@@ -1,0 +1,24 @@
+Grading at 09/13/2017:14:23:01.950012
+For commit ID 0c41e5896ac5c8f1659102e745e0dd6bb76b05e1
+**Testing broken implementation 10 **
+-------------------------------------
+
+
+**Testing broken implementation 11 **
+-------------------------------------
+
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+Your test program did not identify /usr/local/ece551/subseq/subseq3.o as broken!
+
+Overall Grade: FAILED
