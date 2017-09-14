@@ -4,6 +4,8 @@
 
 void reverse(char * str) {
   //WRITE ME!
+  if (str == NULL)
+    return;
   size_t length = strlen(str);
   char temp;
   for(int i = 0; i < length/2; i++) {
