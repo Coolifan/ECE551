@@ -40,6 +40,6 @@ int main(int argc, char **argv)
   int array[128] = {0};
   int key = decipher(f, array);
   fprintf(stdout, "%d\n", key);
-
+  fclose(f);
   return EXIT_SUCCESS;
 }
