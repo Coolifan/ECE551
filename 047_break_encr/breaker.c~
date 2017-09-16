@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int decipher(FILE *f, int *array) {
+  int c;
+  while ((c = fgetc(f)) != EOF) {
+    if (isalpha(c)) {
+      ++array[c];
+    }
+  }
+
+  
+  
+}
+
+int main(int argc, char **argv)
+{
+  if (argc != 2) {
+    fprintf(stderr, "Usage, inputFilename\n");
+    return EXIT_FAILURE;
+  }
+
+  FILE * f = fopen(argv[1], "r");
+  if (f == NULL) {
+    fprintf(stderr, "Could not open file\n");
+    return EXIT_FAILURE;
+  }
+
+  int array[128] = {0};
+    
+}
