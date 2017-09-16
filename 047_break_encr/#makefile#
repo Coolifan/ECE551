@@ -1,2 +1,0 @@
-breaker: breaker.o
-	gcc 

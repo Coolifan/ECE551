@@ -19,9 +19,9 @@ int decipher(FILE *f, int *array) {
       temp = array[i];
     }
   }
-
-  return ptr - 'a' - ('e' - 'a');
-  
+  int key = ptr - 'a' - ('e' - 'a');
+  return key < 0 ? 26+key : key;
+ 
 }
 
 int main(int argc, char **argv)
