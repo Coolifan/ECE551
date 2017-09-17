@@ -6,14 +6,19 @@ void rotate(FILE *f) {
   int output[10][11];
   for (int i = 0; i < 10; i++) {
     for (int j = 0; j < 11; j++) {
-      output[i][j] = fgetc(f);
-      if ((output[i][j] == '\n') && (j != 10)) {
-	fprintf(stderr,"inproper line read\n");
+      if (feof(f)) {
+	fprintf(stderr, "improper line read\n");
 	exit(EXIT_FAILURE);
       }
-	
+      output[i][j] = fgetc(f);
+      if ((output[i][j] == '\n') && (j != 10)) {
+	fprintf(stderr,"improper line read\n");
+	exit(EXIT_FAILURE);
+      }
+      
     }
   }
+
   int c;
   if ((c=fgetc(f)) != EOF) {
     fprintf(stderr, "Matrix is too large to handle\n");
