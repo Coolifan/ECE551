@@ -3,6 +3,6 @@ input2.txt
 input4.txt
 input5.txt
 input6.txt
-fuck,that s more like it
-fuck?
+ok,that s more like it
+hello?
 input.txt
