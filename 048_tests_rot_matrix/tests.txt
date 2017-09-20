@@ -1,2 +1,8 @@
-input.txt
+input3.txt
 input2.txt
+input4.txt
+input5.txt
+input6.txt
+fuck,that s more like it
+fuck?
+input.txt
