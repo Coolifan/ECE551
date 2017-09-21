@@ -42,7 +42,38 @@ void addRandomMine(board_t * b) {
 
 board_t * makeBoard(int w, int h, int numMines) {
   //WRITE ME!
-  return NULL;
+  
+  board_t * bd = malloc(sizeof(*bd));
+  if (bd == NULL) {
+    fprintf(stderr,"board allocation failed\n");
+    exit(EXIT_FAILURE);
+  }
+
+  bd->width = w;
+  bd->height = h;
+  bd->totalMines = numMines;
+  bd->board = malloc(h*sizeof(int*));
+  if (bd->board == NULL) {
+    fprintf(stderr,"2D board array allocation failed\n");
+    exit(EXIT_FAILURE);
+  }
+  for (int y = 0; y < h; y++) {
+    bd->board[y] = malloc(w*sizeof(int));
+    if (bd->board[y] == NULL) {
+      fprintf(stderr,"2d array allocation failed\n");
+      exit(EXIT_FAILURE);
+    }
+    for(int x = 0; x < w; x++) {
+      bd->board[y][x] = UNKNOWN;
+    }
+  }
+
+  for (int i = 0; i < numMines; i++) {
+    addRandomMine(bd);
+  }
+
+  return bd;
+  ///////////
 }
 void printBoard(board_t * b) {    
   int found = 0;
@@ -96,7 +127,42 @@ void printBoard(board_t * b) {
 }
 int countMines(board_t * b, int x, int y) {
   //WRITE ME!
-  return 0;
+  int totalmines = 0;
+  if (x != 0) {
+    if (IS_MINE(b->board[y][x-1]))
+      totalmines++;
+  }
+  if (x != b->width - 1) {
+    if (IS_MINE(b->board[y][x+1]))
+      totalmines++;
+  }
+  if (y != 0) {
+    if (IS_MINE(b->board[y-1][x]))
+      totalmines++;
+  }
+  if (y != b->height - 1) {
+    if (IS_MINE(b->board[y+1][x]))
+      totalmines++;
+  }
+  if (x != 0 && y != 0) {
+    if (IS_MINE(b->board[y-1][x-1]))
+      totalmines++;
+  }
+  if (x != 0 && y != b->height - 1) {
+    if (IS_MINE(b->board[y+1][x-1]))
+      totalmines++;
+  }
+  if (x != b->width - 1 && y != 0) {
+    if (IS_MINE(b->board[y-1][x+1]))
+      totalmines++;
+  }
+  if (x != b->width - 1 && y != b->height - 1) {
+    if (IS_MINE(b->board[y+1][x+1]))
+      totalmines++;
+  }
+
+  return totalmines;
+  
 }
 int click (board_t * b, int x, int y) {
   if (x < 0 || x >= b->width ||
@@ -119,11 +185,26 @@ int click (board_t * b, int x, int y) {
 
 int checkWin(board_t * b) {
   //WRITE ME!
-  return 0;
+  int win = 0;
+  for(int y = 0; y < b->height; y++){
+    for(int x = 0; x < b->width; x++) {
+      if (b->board[y][x] == UNKNOWN)
+	win++;
+    }
+  }
+
+  return win == 0 ? 1 : 0;
+  //////////
 }
 
 void freeBoard(board_t * b) {
   //WRITE ME!
+  for (int y = 0; y < b->height; y++) {
+    free(b->board[y]);
+  }
+  free(b->board);
+  free(b);
+  //////////
 }
 
 int readInt(char ** linep, size_t * lineszp) {
