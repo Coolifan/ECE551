@@ -1,0 +1,20 @@
+Grading at 09/22/2017:06:04:21.674760
+For commit ID 727c5e2528bf14a9078d14c9b717c31e554bcd36
+Attempting to compile:
+#################################################
+testcase1:
+Your output is correct
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
+#################################################
+testcase2:
+Your output is correct
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
+#################################################
+testcase3:
+Your output is correct
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
+
+Overall Grade: A
