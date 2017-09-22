@@ -20,11 +20,13 @@ counts_t * countFile(const char * filename, kvarray_t * kvPairs) {
   size_t sz;
   size_t i = 0;
   FILE * f = fopen(filename, "r");
+  if (f == NULL) {
+    fprintf(stderr, "cannot open input file %s\n", filename);
+    return NULL;
+  }
   counts_t * c = createCounts();
 
   while (getline(&onekey, &sz, f) >= 0) {
-
-    //valuearray = realloc(valuearray, (i+1) * sizeof(*valuearray));
     stripNewline(onekey);
     
     addCount(c,lookupValue(kvPairs, onekey));
@@ -40,11 +42,26 @@ counts_t * countFile(const char * filename, kvarray_t * kvPairs) {
 
 int main(int argc, char ** argv) {
   //WRITE ME (plus add appropriate error checking!)
+  if (argc < 3) {
+    fprintf(stderr, "insufficient input arguments\n");
+    return EXIT_FAILURE;
+  }
  //read the key/value pairs from the file named by argv[1] (call the result kv)
   kvarray_t * kv = readKVs(argv[1]);
+  if (kv == NULL) {
+    fprintf(stderr, "cannot read kv pairs\n");
+    freeKVs(kv);
+    return EXIT_FAILURE;
+  }
  //count from 2 to argc (call the number you count i)
   for (int i = 2; i < argc; i++) {
     counts_t * c = countFile(argv[i], kv);
+    if (c == NULL) {
+      fprintf(stderr, "cannot open file %s\n", argv[i]);
+      freeCounts(c);
+      freeKVs(kv);
+      return EXIT_FAILURE;
+    }
     char * outName = computeOutputFileName(argv[i]);
     //count the values that appear in the file named by argv[i], using kv as the key/value pair
     //   (call this result c)
