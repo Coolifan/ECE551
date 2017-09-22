@@ -15,7 +15,6 @@ void stripNewline(char *str) {
 
 counts_t * countFile(const char * filename, kvarray_t * kvPairs) {
   //WRITE ME
-  //  char ** valuearray = NULL;
   char * onekey = NULL;
   size_t sz;
   size_t i = 0;
@@ -24,17 +23,16 @@ counts_t * countFile(const char * filename, kvarray_t * kvPairs) {
     fprintf(stderr, "cannot open input file %s\n", filename);
     return NULL;
   }
-  counts_t * c = createCounts();
-
+  counts_t * c = createCounts(); //initialize c
+  // read keys from file, strip \n
   while (getline(&onekey, &sz, f) >= 0) {
     stripNewline(onekey);
-    
-    addCount(c,lookupValue(kvPairs, onekey));
+    addCount(c,lookupValue(kvPairs, onekey)); // pair values, add to count
     free(onekey);
     onekey = NULL;
-    i++;
+    i++; //repeat till EOF
   }
-  free(onekey);
+  free(onekey); //free when jump out of loop
   fclose(f);
  
   return c;
@@ -65,9 +63,7 @@ int main(int argc, char ** argv) {
     char * outName = computeOutputFileName(argv[i]);
     //count the values that appear in the file named by argv[i], using kv as the key/value pair
     //   (call this result c)
-    
     //compute the output file name from argv[i] (call this outName)
-
 
     //open the file named by outName (call that f)
     FILE * f = fopen(outName, "w");
