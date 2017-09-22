@@ -2,12 +2,16 @@
 #define __COUNTS_H__
 struct _one_count_t {
   //DEFINE ME
-
+  int freq;
+  char *str;
 };
 typedef struct _one_count_t one_count_t;
 
 struct _counts_t {
   //DEFINE ME
+  one_count_t ** cntary;
+  int onecntsize;
+  int unknown;
 };
 typedef struct _counts_t counts_t;
 
