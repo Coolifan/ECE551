@@ -62,8 +62,13 @@ unsigned int countElectoralVotes(state_t * stateData,
 				 uint64_t * voteCounts, 
 				 size_t nStates) {
   //STEP 2: write me
-  
-  return 0;
+  unsigned int total = 0;
+  for (size_t i = 0; i < nStates; i++) {
+    if (voteCounts[i] > stateData[i].population / 2) {
+      total += stateData[i].electoralVotes;
+    }
+  }
+  return total;
 }
 
 void printRecounts(state_t * stateData, 
