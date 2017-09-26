@@ -89,10 +89,6 @@ unsigned int countElectoralVotes(state_t * stateData,
 				 uint64_t * voteCounts, 
 				 size_t nStates) {
   //STEP 2: write me
-  if (nStates == 0) {
-    fprintf(stderr, "Are you sure that there's 0 state?\n");
-    exit(EXIT_FAILURE);
-  }
   if (stateData == NULL || voteCounts == NULL) {
     fprintf(stderr, "Invalid input arrays\n");
     exit(EXIT_FAILURE);
@@ -114,10 +110,6 @@ void printRecounts(state_t * stateData,
 		   uint64_t * voteCounts, 
 		   size_t nStates) {
   //STEP 3: write me
-  if (nStates == 0) {
-    fprintf(stderr, "Are you sure that there's 0 state?\n");
-    exit(EXIT_FAILURE);
-  }
   if (stateData == NULL || voteCounts == NULL) {
     fprintf(stderr, "Invalid input arrays\n");
     exit(EXIT_FAILURE);
@@ -136,10 +128,6 @@ void printLargestWin(state_t * stateData,
 		     uint64_t * voteCounts, 
 		     size_t nStates) {
   //STEP 4: write me
-  if (nStates == 0) {
-    fprintf(stderr, "Are you sure that there's 0 states?\n");
-    exit(EXIT_FAILURE);
-  }
   if (stateData == NULL || voteCounts == NULL) {
     fprintf(stderr, "Invalid input arrays\n");
     exit(EXIT_FAILURE);
