@@ -91,7 +91,7 @@ state_t parseLine(const char * line) {
     fprintf(stderr, "The electoral votes are too large to handle\n");
     exit(EXIT_FAILURE);
   }
-  
+  // check for VF, not accurate
   char *ptr; 
   if(!strtoul(population, &ptr, 10) && (ptr == population)) {
     fprintf(stderr, "Invalid population format! Enter a number\n");
