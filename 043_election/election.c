@@ -42,31 +42,58 @@ state_t parseLine(const char * line) {
   char electoral_votes [length - secondcolon];
 
   for (int j = 0; j < firstcolon; j++) {
-    if ( (!isalpha(line[j])) && (line[j] != ' ')) {
-      fprintf(stderr, "The name must be alphabetic\n");
-      exit(EXIT_FAILURE);
-    }
     stateinfo.name[j] = line[j]; //copy state names
   }
+
   for (int k = firstcolon+1; k < secondcolon; k++) {
-    if (!isdigit(line[k])) {
-      fprintf(stderr, "The population must be a valid non-negative integer\n");
+    if (line[k] == '-') {
+      fprintf(stderr, "Invalid population! Negative?\n");
       exit(EXIT_FAILURE);
     }
-    population[k-firstcolon-1] = line[k]; //copy population
+    population[k-firstcolon-1] = line[k]; //copy population    
   }
   population[secondcolon-firstcolon-1] = '\0';
+  for (int midspace1 = 0; midspace1 < secondcolon-firstcolon-2; midspace1++) {
+    if (isdigit(population[midspace1]) && (population[midspace1+1] == ' ')) {
+      for (int midspace2 = midspace1+1; midspace2 < secondcolon-firstcolon-2; midspace2++) {
+	if ((population[midspace2] == ' ') && isdigit(population[midspace2+1])) {
+	  fprintf(stderr, "Invalid population format! No space between numbers\n");
+	  exit(EXIT_FAILURE);
+	}
+      }
+    }
+  } // check space between digits
+  
   for (int l = secondcolon+1; l < length; l++) {
-    if (!isdigit(line[l]))  {
-      fprintf(stderr, "The electoral votes must be a valid non-negative integer\n");
+    electoral_votes[l-secondcolon-1] = line[l]; //copy elec. votes
+    if (line[l] == '-') {
+      fprintf(stderr, "Invalid electoral votes! Negative?\n");
       exit(EXIT_FAILURE);
     }
-    electoral_votes[l-secondcolon-1] = line[l]; //copy elec. votes
   }
   electoral_votes[length-secondcolon-1] = '\0';
+  for (int midspace3 = 0; midspace3 < length-secondcolon-2; midspace3++) {
+    if (isdigit(electoral_votes[midspace3]) && (electoral_votes[midspace3+1] == ' ')) {
+      for (int midspace4 = midspace3+1; midspace4 < length-secondcolon-2; midspace4++) {
+	if ((electoral_votes[midspace4] == ' ') && isdigit(electoral_votes[midspace4+1])) {
+	  fprintf(stderr, "Invalid electoralvotes format! No space between numbers\n");
+	  exit(EXIT_FAILURE);
+	}
+      }
+    }
+  } // check space bet. digits
+
+  if ((secondcolon-firstcolon-1 >= 20) && (population[0] >= 2)) {
+    fprintf(stderr, "The population is too large to handle\n");
+    exit(EXIT_FAILURE);
+   }
+  if ((length-secondcolon-1 >= 10) && (electoral_votes[0] >= 5)) {
+    fprintf(stderr, "The electoral votes are too large to handle\n");
+    exit(EXIT_FAILURE);
+  }
   
   char *ptr; 
-  if(!strtoul(population, &ptr, 10 )) {
+  if(!strtoul(population, &ptr, 10) && (ptr == population)) {
     fprintf(stderr, "Invalid population format! Enter a number\n");
     exit(EXIT_FAILURE);
   }
@@ -74,7 +101,7 @@ state_t parseLine(const char * line) {
     stateinfo.population = strtoul(population, &ptr, 10);
   }
   
-  if (!strtoul(electoral_votes, &ptr, 10)) {
+  if (!strtoul(electoral_votes, &ptr, 10) && (ptr == electoral_votes)) {
     fprintf(stderr, "Invalid electoral votes format! Enter a number\n");
     exit(EXIT_FAILURE);
   }
