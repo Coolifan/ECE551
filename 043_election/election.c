@@ -15,11 +15,7 @@ state_t parseLine(const char * line) {
   for (int i = 0; i < length; i++) {
     if (line[i] == ':') {
       if (coloncheck == 0) {
-	firstcolon = i; // save the index of 1st colon
-	if (firstcolon == 0) { 
-	  fprintf(stderr, "Improper format, name is missing\n");
-	  exit(EXIT_FAILURE);
-	}	
+	firstcolon = i; // save the index of 1st colon 
       }
       else if (coloncheck == 1) {
 	secondcolon = i; //save the index of 2nd colon
@@ -44,7 +40,9 @@ state_t parseLine(const char * line) {
   for (int j = 0; j < firstcolon; j++) {
     stateinfo.name[j] = line[j]; //copy state names
   }
-
+  if (firstcolon == 0) {
+    stateinfo.name[0] = '\0';
+  }
   for (int k = firstcolon+1; k < secondcolon; k++) {
     if (line[k] == '-') {
       fprintf(stderr, "Invalid population! Negative?\n");
