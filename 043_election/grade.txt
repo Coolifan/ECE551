@@ -1,5 +1,5 @@
-Grading at 10/07/2017:14:01:27.576519
-For commit ID 165bf7480099685d410a0dcc14a19f8d057fdc50
+Grading at 10/07/2017:14:41:45.635102
+For commit ID abef2b0702f2e410298e366fdb73acbb09ad3683
 election.c exists (good)
 Attempting to compile election.c
 rm -f *~ printStates printEVotes printRecounts printLargeWin
