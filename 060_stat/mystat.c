@@ -45,8 +45,10 @@ void printfirst3lines(char *filename, struct stat sb) {
   printf("Device: %lxh/%lud\tInode: %-10lu  Links: %lu\n", (unsigned long)sb.st_dev, (long unsigned)sb.st_dev, (long unsigned)sb.st_ino, (long unsigned)sb.st_nlink);
 }
 
+/* Step2 : add part of the 4th line of output from stat*/
 void printline4(char *filename, struct stat sb) {
   printf("Access: (%04o/", sb.st_mode & (~S_IFMT));
+
   switch (sb.st_mode & S_IFMT) {
   case S_IFBLK: printf("b");
     break;
@@ -63,6 +65,7 @@ void printline4(char *filename, struct stat sb) {
   case S_IFSOCK: printf("s");
     break;
   }
+  
   if ((sb.st_mode & S_IRUSR) != 0) {
     printf("r");
   }
@@ -118,6 +121,7 @@ void printline4(char *filename, struct stat sb) {
   else {
     printf("-");
   }
+  
   if ((sb.st_mode & S_IXOTH) != 0) {
     printf("x");
   }
@@ -125,7 +129,15 @@ void printline4(char *filename, struct stat sb) {
     printf("-");
   }
 
-  printf(")\n");
+  printf(")  ");
+
+  /* Step 3: finish the 4th line*/
+  struct passwd * pw = getpwuid(sb.st_uid);
+  struct group * grp = getgrgid(sb.st_gid);
+  
+  printf("Uid: (%5d/%8s)   Gid: (%5d/%8s)\n", sb.st_uid, pw->pw_name, sb.st_gid, grp->gr_name);
+
+
 }
 int main (int argc, char *argv[]) {
   if (argc != 2) {
