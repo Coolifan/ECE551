@@ -1,0 +1,1736 @@
+  File: '/dev/block/11:0' -> '../sr0'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 205         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.371999866 -0400
+Change: 2017-08-29 21:40:02.371999866 -0400
+ Birth: -
+  File: '/dev/block/2:0' -> '../fd0'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 324         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.323999868 -0400
+Change: 2017-08-29 21:40:02.323999868 -0400
+ Birth: -
+  File: '/dev/block/252:0' -> '../dm-0'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 358         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.499999860 -0400
+Change: 2017-08-29 21:40:02.499999860 -0400
+ Birth: -
+  File: '/dev/block/252:1' -> '../dm-1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 366         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.479999861 -0400
+Change: 2017-08-29 21:40:02.479999861 -0400
+ Birth: -
+  File: '/dev/block/7:0' -> '../loop0'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 222         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:1' -> '../loop1'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 214         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:2' -> '../loop2'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 215         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:3' -> '../loop3'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 216         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:4' -> '../loop4'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 217         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.403999864 -0400
+Change: 2017-08-29 21:40:02.403999864 -0400
+ Birth: -
+  File: '/dev/block/7:5' -> '../loop5'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 219         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:6' -> '../loop6'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 220         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.395999865 -0400
+Change: 2017-08-29 21:40:02.395999865 -0400
+ Birth: -
+  File: '/dev/block/7:7' -> '../loop7'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 218         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-08-29 21:40:02.399999864 -0400
+Change: 2017-08-29 21:40:02.399999864 -0400
+ Birth: -
+  File: '/dev/block/8:0' -> '../sda'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 346         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.642316082 -0400
+Modify: 2017-09-02 12:01:58.249403238 -0400
+Change: 2017-09-02 12:01:58.249403238 -0400
+ Birth: -
+  File: '/dev/block/8:1' -> '../sda1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 353         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.646316143 -0400
+Modify: 2017-09-02 12:01:58.257403450 -0400
+Change: 2017-09-02 12:01:58.257403450 -0400
+ Birth: -
+  File: '/dev/block/8:2' -> '../sda2'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 348         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.646316143 -0400
+Modify: 2017-09-02 12:01:58.257403450 -0400
+Change: 2017-09-02 12:01:58.257403450 -0400
+ Birth: -
+  File: '/dev/block/8:5' -> '../sda5'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 350         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:53:43.646316143 -0400
+Modify: 2017-09-02 12:01:58.257403450 -0400
+Change: 2017-09-02 12:01:58.257403450 -0400
+ Birth: -
+  File: '/dev/bsg/1:0:0:0'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 156         Links: 1     Device type: f9,0
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.283999870 -0400
+Modify: 2017-08-29 21:40:02.283999870 -0400
+Change: 2017-08-29 21:40:02.283999870 -0400
+ Birth: -
+  File: '/dev/bsg/2:0:0:0'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 334         Links: 1     Device type: f9,1
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.291999869 -0400
+Modify: 2017-08-29 21:40:02.291999869 -0400
+Change: 2017-08-29 21:40:02.291999869 -0400
+ Birth: -
+  File: '/dev/char/10:1' -> '../psaux'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 245         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:175' -> '../agpgart'
+  Size: 10        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 231         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:183' -> '../hwrng'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 237         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:184' -> '../cpu/microcode'
+  Size: 16        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 242         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:200' -> '../net/tun'
+  Size: 10        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 248         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:223' -> '../uinput'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 249         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:227' -> '../mcelog'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 240         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:228' -> '../hpet'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 236         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:229' -> '../fuse'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 235         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:231' -> '../snapshot'
+  Size: 11        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 247         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:234' -> '../btrfs-control'
+  Size: 16        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 421         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-09-02 12:01:59.813444806 -0400
+Change: 2017-09-02 12:01:59.813444806 -0400
+ Birth: -
+  File: '/dev/char/10:235' -> '../autofs'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 397         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/10:236' -> '../mapper/control'
+  Size: 17        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 233         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:237' -> '../loop-control'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 239         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:54' -> '../vsock'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 420         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:03.119999831 -0400
+Change: 2017-08-29 21:40:03.119999831 -0400
+ Birth: -
+  File: '/dev/char/10:55' -> '../vmci'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 406         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.463999861 -0400
+Change: 2017-08-29 21:40:02.463999861 -0400
+ Birth: -
+  File: '/dev/char/10:56' -> '../memory_bandwidth'
+  Size: 19        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 241         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:57' -> '../network_throughput'
+  Size: 21        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 244         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:58' -> '../network_latency'
+  Size: 18        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 243         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:59' -> '../cpu_dma_latency'
+  Size: 18        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 232         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:60' -> '../lightnvm/control'
+  Size: 19        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 238         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:61' -> '../ecryptfs'
+  Size: 11        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 234         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/10:62' -> '../rfkill'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 246         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/10:63' -> '../vga_arbiter'
+  Size: 14        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 250         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/char/108:0' -> '../ppp'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 251         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/1:1' -> '../mem'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 225         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/1:11' -> '../kmsg'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 224         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.403999864 -0400
+Change: 2017-08-29 21:40:02.403999864 -0400
+ Birth: -
+  File: '/dev/char/1:3' -> '../null'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 226         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/13:32' -> '../input/mouse0'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 325         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/13:33' -> '../input/mouse1'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 326         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/13:63' -> '../input/mice'
+  Size: 13        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 221         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.403999864 -0400
+Change: 2017-08-29 21:40:02.403999864 -0400
+ Birth: -
+  File: '/dev/char/13:64' -> '../input/event0'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 164         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.159999876 -0400
+Change: 2017-08-29 21:40:02.159999876 -0400
+ Birth: -
+  File: '/dev/char/13:65' -> '../input/event1'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 213         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.359999866 -0400
+Change: 2017-08-29 21:40:02.359999866 -0400
+ Birth: -
+  File: '/dev/char/13:66' -> '../input/event2'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 327         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.363999866 -0400
+Change: 2017-08-29 21:40:02.363999866 -0400
+ Birth: -
+  File: '/dev/char/13:67' -> '../input/event3'
+  Size: 15        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 328         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.359999866 -0400
+Change: 2017-08-29 21:40:02.359999866 -0400
+ Birth: -
+  File: '/dev/char/1:4' -> '../port'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 227         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/1:5' -> '../zero'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 230         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/1:7' -> '../full'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 223         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.403999864 -0400
+Change: 2017-08-29 21:40:02.403999864 -0400
+ Birth: -
+  File: '/dev/char/1:8' -> '../random'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 228         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/1:9' -> '../urandom'
+  Size: 10        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 229         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/char/21:0' -> '../sg0'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 167         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.283999870 -0400
+Change: 2017-08-29 21:40:02.283999870 -0400
+ Birth: -
+  File: '/dev/char/21:1' -> '../sg1'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 341         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.295999869 -0400
+Change: 2017-08-29 21:40:02.295999869 -0400
+ Birth: -
+  File: '/dev/char/226:0' -> '../dri/card0'
+  Size: 12        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 343         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/char/226:128' -> '../dri/renderD128'
+  Size: 17        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 344         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/char/226:64' -> '../dri/controlD64'
+  Size: 17        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 342         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/char/249:0' -> '../bsg/1:0:0:0'
+  Size: 14        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 166         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.283999870 -0400
+Change: 2017-08-29 21:40:02.283999870 -0400
+ Birth: -
+  File: '/dev/char/249:1' -> '../bsg/2:0:0:0'
+  Size: 14        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 340         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.291999869 -0400
+Change: 2017-08-29 21:40:02.291999869 -0400
+ Birth: -
+  File: '/dev/char/251:0' -> '../rtc0'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 211         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.351999867 -0400
+Change: 2017-08-29 21:40:02.351999867 -0400
+ Birth: -
+  File: '/dev/char/29:0' -> '../fb0'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 345         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/char/4:0' -> '../tty0'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 255         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:1' -> '../tty1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 256         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:10' -> '../tty10'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 257         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:11' -> '../tty11'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 258         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:12' -> '../tty12'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 259         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:13' -> '../tty13'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 260         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:14' -> '../tty14'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 261         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:15' -> '../tty15'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 262         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/4:16' -> '../tty16'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 263         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:17' -> '../tty17'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 264         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:18' -> '../tty18'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 265         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:19' -> '../tty19'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 266         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:2' -> '../tty2'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 267         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:20' -> '../tty20'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 268         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:21' -> '../tty21'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 269         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:22' -> '../tty22'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 270         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:23' -> '../tty23'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 271         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:24' -> '../tty24'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 272         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:25' -> '../tty25'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 273         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:26' -> '../tty26'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 274         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:27' -> '../tty27'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 275         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:28' -> '../tty28'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 276         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:29' -> '../tty29'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 277         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.419999863 -0400
+Change: 2017-08-29 21:40:02.419999863 -0400
+ Birth: -
+  File: '/dev/char/4:3' -> '../tty3'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 278         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.423999863 -0400
+Change: 2017-08-29 21:40:02.423999863 -0400
+ Birth: -
+  File: '/dev/char/4:30' -> '../tty30'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 279         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.423999863 -0400
+Change: 2017-08-29 21:40:02.423999863 -0400
+ Birth: -
+  File: '/dev/char/4:31' -> '../tty31'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 280         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.423999863 -0400
+Change: 2017-08-29 21:40:02.423999863 -0400
+ Birth: -
+  File: '/dev/char/4:32' -> '../tty32'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 281         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.423999863 -0400
+Change: 2017-08-29 21:40:02.423999863 -0400
+ Birth: -
+  File: '/dev/char/4:33' -> '../tty33'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 282         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:34' -> '../tty34'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 283         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:35' -> '../tty35'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 284         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:36' -> '../tty36'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 285         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:37' -> '../tty37'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 286         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:38' -> '../tty38'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 287         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:39' -> '../tty39'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 288         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:4' -> '../tty4'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 289         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:40' -> '../tty40'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 290         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:41' -> '../tty41'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 291         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:42' -> '../tty42'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 292         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:43' -> '../tty43'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 293         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:44' -> '../tty44'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 294         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:45' -> '../tty45'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 295         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:46' -> '../tty46'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 296         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:47' -> '../tty47'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 297         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:48' -> '../tty48'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 298         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:49' -> '../tty49'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 299         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.435999863 -0400
+Change: 2017-08-29 21:40:02.435999863 -0400
+ Birth: -
+  File: '/dev/char/4:5' -> '../tty5'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 300         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:50' -> '../tty50'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 301         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:51' -> '../tty51'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 302         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:52' -> '../tty52'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 303         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:53' -> '../tty53'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 304         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:54' -> '../tty54'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 305         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:55' -> '../tty55'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 306         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:56' -> '../tty56'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 307         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:57' -> '../tty57'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 308         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:58' -> '../tty58'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 309         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:59' -> '../tty59'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 310         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:6' -> '../tty6'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 311         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:60' -> '../tty60'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 312         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.439999862 -0400
+Change: 2017-08-29 21:40:02.439999862 -0400
+ Birth: -
+  File: '/dev/char/4:61' -> '../tty61'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 313         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:62' -> '../tty62'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 314         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:63' -> '../tty63'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 315         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:64' -> '../ttyS0'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 168         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.323999868 -0400
+Change: 2017-08-29 21:40:02.323999868 -0400
+ Birth: -
+  File: '/dev/char/4:65' -> '../ttyS1'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 169         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:66' -> '../ttyS2'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 183         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/4:67' -> '../ttyS3'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 197         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:68' -> '../ttyS4'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 198         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:69' -> '../ttyS5'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 200         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:7' -> '../tty7'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 316         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:70' -> '../ttyS6'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 199         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:71' -> '../ttyS7'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 202         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:72' -> '../ttyS8'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 203         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/4:73' -> '../ttyS9'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 201         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.351999867 -0400
+Change: 2017-08-29 21:40:02.351999867 -0400
+ Birth: -
+  File: '/dev/char/4:74' -> '../ttyS10'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 170         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.323999868 -0400
+Change: 2017-08-29 21:40:02.323999868 -0400
+ Birth: -
+  File: '/dev/char/4:75' -> '../ttyS11'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 171         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:76' -> '../ttyS12'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 174         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:77' -> '../ttyS13'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 173         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:78' -> '../ttyS14'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 172         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:79' -> '../ttyS15'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 180         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:8' -> '../tty8'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 317         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:80' -> '../ttyS16'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 176         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:81' -> '../ttyS17'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 175         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:82' -> '../ttyS18'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 177         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.712018146 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:83' -> '../ttyS19'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 179         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:84' -> '../ttyS20'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 178         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.331999867 -0400
+Change: 2017-08-29 21:40:02.331999867 -0400
+ Birth: -
+  File: '/dev/char/4:85' -> '../ttyS21'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 184         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/4:86' -> '../ttyS22'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 182         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/4:87' -> '../ttyS23'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 181         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/4:88' -> '../ttyS24'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 194         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:89' -> '../ttyS25'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 189         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/char/4:9' -> '../tty9'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 318         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/4:90' -> '../ttyS26'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 190         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:91' -> '../ttyS27'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 193         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:92' -> '../ttyS28'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 191         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:93' -> '../ttyS29'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 192         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:94' -> '../ttyS30'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 195         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/char/4:95' -> '../ttyS31'
+  Size: 9         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 196         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.343999867 -0400
+Change: 2017-08-29 21:40:02.343999867 -0400
+ Birth: -
+  File: '/dev/char/5:0' -> '../tty'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 254         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/5:1' -> '../console'
+  Size: 10        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 252         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/5:2' -> '../ptmx'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 253         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.415999864 -0400
+Change: 2017-08-29 21:40:02.415999864 -0400
+ Birth: -
+  File: '/dev/char/5:3' -> '../ttyprintk'
+  Size: 12        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 319         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/7:0' -> '../vcs'
+  Size: 6         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 320         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/7:1' -> '../vcs1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 321         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/7:128' -> '../vcsa'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 322         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.443999862 -0400
+Change: 2017-08-29 21:40:02.443999862 -0400
+ Birth: -
+  File: '/dev/char/7:129' -> '../vcsa1'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 323         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.447999862 -0400
+Change: 2017-08-29 21:40:02.447999862 -0400
+ Birth: -
+  File: '/dev/char/7:130' -> '../vcsa2'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 410         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:131' -> '../vcsa3'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 408         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:132' -> '../vcsa4'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 414         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.475999861 -0400
+Change: 2017-08-29 21:40:02.475999861 -0400
+ Birth: -
+  File: '/dev/char/7:133' -> '../vcsa5'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 412         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:134' -> '../vcsa6'
+  Size: 8         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 418         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.483999860 -0400
+Change: 2017-08-29 21:40:02.483999860 -0400
+ Birth: -
+  File: '/dev/char/7:2' -> '../vcs2'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 409         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:3' -> '../vcs3'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 407         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:4' -> '../vcs4'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 413         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.475999861 -0400
+Change: 2017-08-29 21:40:02.475999861 -0400
+ Birth: -
+  File: '/dev/char/7:5' -> '../vcs5'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 411         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.467999861 -0400
+Change: 2017-08-29 21:40:02.467999861 -0400
+ Birth: -
+  File: '/dev/char/7:6' -> '../vcs6'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 417         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 20:46:48.708018087 -0400
+Modify: 2017-08-29 21:40:02.483999860 -0400
+Change: 2017-08-29 21:40:02.483999860 -0400
+ Birth: -
+  File: '/dev/cpu/microcode'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 148         Links: 1     Device type: a,b8
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.411999864 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/disk/by-id'
+  Size: 160       	Blocks: 0          IO Block: 4096   directory
+Device: 6h/6d	Inode: 207         Links: 2
+Access: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 22:03:08.738793814 -0400
+Modify: 2017-08-29 21:40:00.607999948 -0400
+Change: 2017-08-29 21:40:00.607999948 -0400
+ Birth: -
+  File: '/dev/disk/by-path'
+  Size: 140       	Blocks: 0          IO Block: 4096   directory
+Device: 6h/6d	Inode: 209         Links: 2
+Access: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 22:03:08.738793814 -0400
+Modify: 2017-08-29 21:40:00.271999964 -0400
+Change: 2017-08-29 21:40:00.271999964 -0400
+ Birth: -
+  File: '/dev/disk/by-uuid'
+  Size: 100       	Blocks: 0          IO Block: 4096   directory
+Device: 6h/6d	Inode: 355         Links: 2
+Access: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 22:03:08.738793814 -0400
+Modify: 2017-08-29 21:40:00.607999948 -0400
+Change: 2017-08-29 21:40:00.607999948 -0400
+ Birth: -
+  File: '/dev/dri/card0'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 332         Links: 1     Device type: e2,0
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (   44/   video)
+Access: 2017-08-29 21:40:02.279999870 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/dri/controlD64'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 330         Links: 1     Device type: e2,40
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (   44/   video)
+Access: 2017-08-29 21:40:02.279999870 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/dri/renderD128'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 331         Links: 1     Device type: e2,80
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (   44/   video)
+Access: 2017-08-29 21:40:02.279999870 -0400
+Modify: 2017-08-29 21:40:02.279999870 -0400
+Change: 2017-08-29 21:40:02.279999870 -0400
+ Birth: -
+  File: '/dev/fd/0' -> '/dev/pts/0'
+  Size: 64        	Blocks: 0          IO Block: 1024   symbolic link
+Device: 4h/4d	Inode: 53290150    Links: 1
+Access: (0700/lrwx------)  Uid: ( 1069/   yl506)   Gid: ( 1072/   yl506)
+Access: 2017-10-09 02:21:59.734268285 -0400
+Modify: 2017-10-09 02:21:59.734268285 -0400
+Change: 2017-10-09 02:21:59.734268285 -0400
+ Birth: -
+  File: '/dev/fd/1' -> '/home/yl506/ece551/060_stat/statans2.txt'
+  Size: 64        	Blocks: 0          IO Block: 1024   symbolic link
+Device: 4h/4d	Inode: 53290151    Links: 1
+Access: (0300/l-wx------)  Uid: ( 1069/   yl506)   Gid: ( 1072/   yl506)
+Access: 2017-10-09 02:21:59.734268285 -0400
+Modify: 2017-10-09 02:21:59.734268285 -0400
+Change: 2017-10-09 02:21:59.734268285 -0400
+ Birth: -
+  File: '/dev/fd/2' -> '/dev/pts/0'
+  Size: 64        	Blocks: 0          IO Block: 1024   symbolic link
+Device: 4h/4d	Inode: 53290152    Links: 1
+Access: (0700/lrwx------)  Uid: ( 1069/   yl506)   Gid: ( 1072/   yl506)
+Access: 2017-10-09 02:21:59.734268285 -0400
+Modify: 2017-10-09 02:21:59.734268285 -0400
+Change: 2017-10-09 02:21:59.734268285 -0400
+ Birth: -
+  File: '/dev/input/by-path'
+  Size: 100       	Blocks: 0          IO Block: 4096   directory
+Device: 6h/6d	Inode: 390         Links: 2
+Access: (0755/drwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 22:03:08.738793814 -0400
+Modify: 2017-08-29 21:40:02.363999866 -0400
+Change: 2017-08-29 21:40:02.363999866 -0400
+ Birth: -
+  File: '/dev/input/event0'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 140         Links: 1     Device type: d,40
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.159999876 -0400
+Modify: 2017-08-29 21:40:02.159999876 -0400
+Change: 2017-08-29 21:40:02.159999876 -0400
+ Birth: -
+  File: '/dev/input/event1'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 145         Links: 1     Device type: d,41
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.359999866 -0400
+Modify: 2017-08-29 21:40:02.359999866 -0400
+Change: 2017-08-29 21:40:02.359999866 -0400
+ Birth: -
+  File: '/dev/input/event2'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 186         Links: 1     Device type: d,42
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.363999866 -0400
+Modify: 2017-08-29 21:40:02.363999866 -0400
+Change: 2017-08-29 21:40:02.363999866 -0400
+ Birth: -
+  File: '/dev/input/event3'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 188         Links: 1     Device type: d,43
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.359999866 -0400
+Modify: 2017-08-29 21:40:02.359999866 -0400
+Change: 2017-08-29 21:40:02.359999866 -0400
+ Birth: -
+  File: '/dev/input/mice'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 138         Links: 1     Device type: d,3f
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.403999864 -0400
+Modify: 2017-08-29 21:40:02.403999864 -0400
+Change: 2017-08-29 21:40:02.403999864 -0400
+ Birth: -
+  File: '/dev/input/mouse0'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 185         Links: 1     Device type: d,20
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.339999867 -0400
+Modify: 2017-08-29 21:40:02.339999867 -0400
+Change: 2017-08-29 21:40:02.339999867 -0400
+ Birth: -
+  File: '/dev/input/mouse1'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 187         Links: 1     Device type: d,21
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (  106/   input)
+Access: 2017-08-29 21:40:02.335999867 -0400
+Modify: 2017-08-29 21:40:02.335999867 -0400
+Change: 2017-08-29 21:40:02.335999867 -0400
+ Birth: -
+  File: '/dev/lightnvm/control'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 124         Links: 1     Device type: a,3c
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.411999864 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/mapper/control'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 144         Links: 1     Device type: a,ec
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.407999864 -0400
+Modify: 2017-08-29 21:40:02.407999864 -0400
+Change: 2017-08-29 21:40:02.407999864 -0400
+ Birth: -
+  File: '/dev/mapper/ubuntuos-root' -> '../dm-0'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 362         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 21:41:24.886992237 -0400
+Modify: 2017-08-29 21:40:02.499999860 -0400
+Change: 2017-08-29 21:40:02.499999860 -0400
+ Birth: -
+  File: '/dev/mapper/ubuntuos-swap_1' -> '../dm-1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 370         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 23:48:08.769475666 -0400
+Modify: 2017-08-29 21:40:02.479999861 -0400
+Change: 2017-08-29 21:40:02.479999861 -0400
+ Birth: -
+  File: '/dev/net/tun'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 135         Links: 1     Device type: a,c8
+Access: (0666/crw-rw-rw-)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:02.411999864 -0400
+Modify: 2017-08-29 21:40:02.411999864 -0400
+Change: 2017-08-29 21:40:02.411999864 -0400
+ Birth: -
+  File: '/dev/pts/0'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 3           Links: 1     Device type: 88,0
+Access: (0620/crw--w----)  Uid: ( 1069/   yl506)   Gid: (    5/     tty)
+Access: 2017-10-09 02:21:52.637959173 -0400
+Modify: 2017-10-09 02:21:52.637959173 -0400
+Change: 2017-10-09 02:03:54.637959173 -0400
+ Birth: -
+  File: '/dev/pts/12'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 15          Links: 1     Device type: 88,c
+Access: (0620/crw--w----)  Uid: ( 1106/   ys205)   Gid: (    5/     tty)
+Access: 2017-10-08 21:35:44.920746977 -0400
+Modify: 2017-10-08 21:35:44.920746977 -0400
+Change: 2017-10-08 21:34:41.920746977 -0400
+ Birth: -
+  File: '/dev/pts/13'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 16          Links: 1     Device type: 88,d
+Access: (0620/crw--w----)  Uid: ( 1161/   xz139)   Gid: (    5/     tty)
+Access: 2017-10-08 21:16:00.716431040 -0400
+Modify: 2017-10-08 21:16:00.716431040 -0400
+Change: 2017-10-05 13:16:28.716431040 -0400
+ Birth: -
+  File: '/dev/pts/16'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 19          Links: 1     Device type: 88,10
+Access: (0620/crw--w----)  Uid: ( 1126/   jw562)   Gid: (    5/     tty)
+Access: 2017-10-08 17:53:04.972359529 -0400
+Modify: 2017-10-08 17:53:04.972359529 -0400
+Change: 2017-10-08 15:27:45.972359529 -0400
+ Birth: -
+  File: '/dev/pts/22'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 25          Links: 1     Device type: 88,16
+Access: (0620/crw--w----)  Uid: ( 1128/   sw361)   Gid: (    5/     tty)
+Access: 2017-10-09 02:17:28.862553163 -0400
+Modify: 2017-10-09 02:19:12.862553163 -0400
+Change: 2017-10-08 17:03:38.862553163 -0400
+ Birth: -
+  File: '/dev/pts/29'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 32          Links: 1     Device type: 88,1d
+Access: (0620/crw--w----)  Uid: ( 1161/   xz139)   Gid: (    5/     tty)
+Access: 2017-10-08 23:11:21.877319051 -0400
+Modify: 2017-10-08 23:11:21.877319051 -0400
+Change: 2017-10-05 13:27:07.877319051 -0400
+ Birth: -
+  File: '/dev/pts/ptmx'
+  Size: 0         	Blocks: 0          IO Block: 1024   character special file
+Device: eh/14d	Inode: 2           Links: 1     Device type: 5,2
+Access: (0000/c---------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:39:58.944928870 -0400
+Modify: 2017-08-29 21:39:58.944928870 -0400
+Change: 2017-08-29 21:39:58.944928870 -0400
+ Birth: -
+  File: '/dev/shm/PostgreSQL.1587355701'
+  Size: 2316      	Blocks: 8          IO Block: 4096   regular file
+Device: 14h/20d	Inode: 3           Links: 1
+Access: (0600/-rw-------)  Uid: (  110/postgres)   Gid: (  117/postgres)
+Access: 2017-08-29 21:40:04.075999786 -0400
+Modify: 2017-08-29 21:40:04.075999786 -0400
+Change: 2017-08-29 21:40:04.075999786 -0400
+ Birth: -
+  File: '/dev/snd/seq'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 388         Links: 1     Device type: 74,1
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (   29/   audio)
+Access: 2017-08-29 21:40:02.031999881 -0400
+Modify: 2017-08-29 21:40:02.031999881 -0400
+Change: 2017-08-29 21:40:02.031999881 -0400
+ Birth: -
+  File: '/dev/snd/timer'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 387         Links: 1     Device type: 74,21
+Access: (0660/crw-rw----)  Uid: (    0/    root)   Gid: (   29/   audio)
+Access: 2017-08-29 21:40:02.031999881 -0400
+Modify: 2017-08-29 21:40:02.031999881 -0400
+Change: 2017-08-29 21:40:02.031999881 -0400
+ Birth: -
+  File: '/dev/ubuntuos/root' -> '../dm-0'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 364         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 23:48:08.769475666 -0400
+Modify: 2017-08-29 21:40:02.499999860 -0400
+Change: 2017-08-29 21:40:02.499999860 -0400
+ Birth: -
+  File: '/dev/ubuntuos/swap_1' -> '../dm-1'
+  Size: 7         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 6h/6d	Inode: 371         Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-10-08 23:48:08.769475666 -0400
+Modify: 2017-08-29 21:40:02.479999861 -0400
+Change: 2017-08-29 21:40:02.479999861 -0400
+ Birth: -
+  File: '/dev/vfio/vfio'
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 382         Links: 1     Device type: a,c4
+Access: (0600/crw-------)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2017-08-29 21:40:01.863999889 -0400
+Modify: 2017-08-29 21:40:01.863999889 -0400
+Change: 2017-08-29 21:40:01.863999889 -0400
+ Birth: -
