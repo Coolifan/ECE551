@@ -3,7 +3,7 @@ class Point {
   double x;
   double y;
  public:
-  Point();
+ Point() : x(0.0), y(0.0) {}
   void move(double dx, double dy);
   double distanceFrom(const Point & p);
 };

@@ -219,7 +219,8 @@ int main (int argc, char *argv[]) {
   for (int i = 1; i < argc; i++) {
     if (lstat(argv[i], &sb) == -1) {
       fprintf(stderr, "stat: cannot stat '%s': No such file or directory\n", argv[i]);
-      exit(EXIT_FAILURE);
+      //exit(EXIT_FAILURE);
+      continue;
     }
     
     printfirst3lines(argv[i], sb); 

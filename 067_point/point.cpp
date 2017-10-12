@@ -2,9 +2,6 @@
 #include <cstdio>
 #include <cmath>
 #include "point.h"
-Point::Point() : x(0.0), y(0.0) {
-
-}
 
 void Point::move(double dx, double dy) {
   x += dx;
