@@ -28,10 +28,10 @@ int main(void) {
   else {
     std::cout << "a and b have different contents" << std::endl;
   }
-
+  
   IntMatrix c;
   std::cout << "c is:\n" << c << std::endl;
   c = a + b;
-  std::cout << "Now, c is:\n" << c << std::endl;
+  std::cout << "Now, c is:\n" << c << std::endl; 
   return EXIT_SUCCESS;
 }
