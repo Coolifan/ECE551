@@ -31,11 +31,11 @@ IntArray & IntArray::operator=(const IntArray & rhs) {
   return *this;
 }
 const int & IntArray::operator[](int index) const {
-  assert(index < numElements);
+  assert(index < numElements && index >= 0);
   return data[index];
 }
 int & IntArray::operator[](int index) {
-  assert(index < numElements);
+  assert(index < numElements && index >= 0);
   return data[index];
 }
 
