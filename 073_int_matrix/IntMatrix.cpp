@@ -22,10 +22,10 @@ IntMatrix::~IntMatrix() {
 }
 IntMatrix &IntMatrix::operator=(const IntMatrix & rhs) {
   if (this != &rhs) {
-    /* for (int i = numRows-1; i >= 0; i--) {
+     for (int i = numRows-1; i >= 0; i--) {
       delete rows[i];
     }
-    */
+     //
 
     rows = new IntArray *[rhs.numRows];
     numRows = rhs.numRows;
@@ -82,6 +82,8 @@ IntMatrix IntMatrix::operator+(const IntMatrix & rhs) const {
 }
 
 std::ostream & operator<<(std::ostream & s, const IntMatrix & rhs) {
+  assert(rhs.getRows() >= 0);
+  assert(rhs.getColumns() >= 0);
   s << "[ ";
   for (int i = 0; i < rhs.getRows(); i++) {
     s << rhs[i];
