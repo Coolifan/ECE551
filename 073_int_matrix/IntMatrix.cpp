@@ -88,7 +88,7 @@ std::ostream & operator<<(std::ostream & s, const IntMatrix & rhs) {
   for (int i = 0; i < rhs.getRows(); i++) {
     s << rhs[i];
     if (i != rhs.getRows() - 1) {
-      s << " \n";
+      s << ",\n";
     }
   }
   s << " ]";
