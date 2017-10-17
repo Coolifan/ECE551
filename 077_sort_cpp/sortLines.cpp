@@ -23,6 +23,10 @@ int main(int argc, char *argv[]) {
     for (int i = 1; i < argc; i++) {
       std::ifstream input;
       input.open(argv[i]);
+      if (!input.is_open()) {
+	std::cerr << "cannot open file" << std::endl;
+	exit(EXIT_FAILURE);
+      }
       std::vector<std::string> v2;
       while (std::getline(input, line)) {
 	v2.push_back(line);
