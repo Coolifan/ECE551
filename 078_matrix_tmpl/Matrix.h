@@ -35,15 +35,14 @@ Matrix<T>::Matrix() : numRows(0), numColumns(0) {
 
 template<typename T>
 Matrix<T>::Matrix(int r, int c) : numRows(r), numColumns(c), rows(new std::vector<T>*[r]) {
-  assert(r > 0 && c > 0);
+  assert(r >= 0 && c >= 0);
   for (int i = 0; i < r; i++) {
     rows[i] = new std::vector<T>(c);
-    //*(rows[i]).reserve(c);
   }
 }
 template<typename T>
 Matrix<T>::Matrix(const Matrix<T> & rhs) : numRows(rhs.numRows), numColumns(rhs.numColumns), rows(new std::vector<T>*[rhs.numRows])  {
-  assert(rhs.numRows > 0 && rhs.numColumns > 0);
+  assert(rhs.numRows >= 0 && rhs.numColumns >= 0);
   for (int i = 0; i < rhs.numRows; i++) {
     rows[i] = new std::vector<T>(rhs.numColumns);
     *(rows[i]) = *(rhs.rows[i]);
@@ -59,7 +58,7 @@ Matrix<T>::~Matrix() {
 
 template<typename T>
 Matrix<T> & Matrix<T>::operator=(const Matrix<T> & rhs) {
-  if (this != &rhs) {
+  if (this != &rhs) { /*
     for (int i = numRows-1; i >= 0; i--) {
       delete rows[i];
     }
@@ -70,7 +69,19 @@ Matrix<T> & Matrix<T>::operator=(const Matrix<T> & rhs) {
     for (int j = 0; j < numRows; j++) {
       rows[j] = new std::vector<T>(rhs.numColumns);
       *(rows[j]) = *(rhs.rows[j]);
+      } */
+    std::vector<T>** temp = new std::vector<T>*[rhs.numRows];
+    for (int i = 0; i < rhs.numRows; i++) {
+      temp[i] = new std::vector<T>(rhs.numColumns);
+      *(temp[i]) = *(rhs.rows[i]);
     }
+    // for (int j = numRows-1; j >= 0; j--) {
+    //  delete rows[j];
+    // }
+   
+    numRows = rhs.numRows;
+    numColumns = rhs.numColumns;
+    rows = temp;
   }
   return *this;
 }
