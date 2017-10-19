@@ -30,19 +30,25 @@ class Matrix {
 
 ///////////methods implementation
 template<typename T>
-Matrix<T>::Matrix() : numRows(0), numColumns(0) {
+Matrix<T>::Matrix() : numRows(0), numColumns(0), rows(NULL) {
 }
 
 template<typename T>
-Matrix<T>::Matrix(int r, int c) : numRows(r), numColumns(c), rows(new std::vector<T>*[r]) {
+Matrix<T>::Matrix(int r, int c) : numRows(r), numColumns(c), rows(NULL) {
   assert(r >= 0 && c >= 0);
+  if (r != 0) {
+    rows = new std::vector<T>*[r];
+  }
   for (int i = 0; i < r; i++) {
     rows[i] = new std::vector<T>(c);
   }
 }
 template<typename T>
-Matrix<T>::Matrix(const Matrix<T> & rhs) : numRows(rhs.numRows), numColumns(rhs.numColumns), rows(new std::vector<T>*[rhs.numRows])  {
+Matrix<T>::Matrix(const Matrix<T> & rhs) : numRows(rhs.numRows), numColumns(rhs.numColumns), rows(NULL)  {
   assert(rhs.numRows >= 0 && rhs.numColumns >= 0);
+  if (rhs.numRows != 0) {
+    rows = new std::vector<T>*[rhs.numRows];
+  }
   for (int i = 0; i < rhs.numRows; i++) {
     rows[i] = new std::vector<T>(rhs.numColumns);
     *(rows[i]) = *(rhs.rows[i]);
