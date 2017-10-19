@@ -1,22 +1,22 @@
-Grading at 10/19/2017:05:22:31.061586
-For commit ID ade088d2cb98c1b25b92a8e3ff06f81d7e892f12
+Grading at 10/19/2017:05:47:59.261473
+For commit ID 277c06948a39e3f6e1c7b3470e7651e67aab1b25
 -----------------------------------------------
 testcase 1 : Testing with Matrix<int>
 ...compiling...
 The code compiled.
-  - Valgrind showed memory leaks
+  - Valgrind reported errors
 Valgrind reported errors (test failed).
 -----------------------------------------------
 testcase 2 : Testing with Matrix<std::string>
 ...compiling...
 The code compiled.
-  - Valgrind showed memory leaks
+  - Valgrind reported errors
 Valgrind reported errors (test failed).
 -----------------------------------------------
 testcase 3 : Testing with Matrix<(a custom class we wrote)>
 ...compiling...
 The code compiled.
-  - Valgrind showed memory leaks
+  - Valgrind reported errors
 Valgrind reported errors (test failed).
 --------------------------------------------
 Preparing to test assert fails...
