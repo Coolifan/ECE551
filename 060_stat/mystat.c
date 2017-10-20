@@ -21,15 +21,15 @@ char * time2str(const time_t * when, long ns) {
 
 /*Step 1 : print out the first 3 lines of output that "stat" would print */
 void regularfile(struct stat sb) {
-  if (sb.st_size == 0 && sb.st_blocks == 0) {
+  if (sb.st_size == 0) {
     printf(" regular empty file\n");
   }
   else {
     printf(" regular file\n");
   }
 }
-void printfirst3lines(char *filename, struct stat sb) {
 
+void printfirst3lines(char *filename, struct stat sb) {
   if (S_ISLNK(sb.st_mode)) {
     char linktarget[256];
     ssize_t len = readlink(filename, linktarget, 256);
@@ -197,7 +197,7 @@ void printlast4lines(char *filename, struct stat sb) {
   char *Atimestr = time2str(&sb.st_atime, sb.st_atim.tv_nsec);
   char *Mtimestr = time2str(&sb.st_mtime, sb.st_mtim.tv_nsec);
   char *Ctimestr = time2str(&sb.st_ctime, sb.st_ctim.tv_nsec);
-
+  
   printf("Access: %s\n", Atimestr);
   printf("Modify: %s\n", Mtimestr);
   printf("Change: %s\n", Ctimestr);
