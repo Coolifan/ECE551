@@ -159,8 +159,9 @@ LinkedList<T> & LinkedList<T>::operator=(const LinkedList<T> & rhs) {
       ptr = ptr->prev;
     }
     
-    return *this;
-}
+   
+  }
+  return *this;
 }
 template<typename T>
 LinkedList<T>::LinkedList(const LinkedList<T> & rhs) : head(NULL), tail(NULL), size(0)  {
