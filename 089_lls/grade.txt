@@ -1,34 +1,25 @@
-Grading at 11/01/2017:00:28:10.549877
-For commit ID 1f48a86e5bb7a4b6b98921231b4cece431dd7c0c
+Grading at 11/01/2017:00:34:32.356728
+For commit ID ba9294fdbd719461031559b4debe26e1424ef325
 -----------------------------------------------
 testcase 1 : Testing with LinkedList<int>
 ...compiling...
-In file included from tester.cpp:1:0:
-ll.h: In member function ‘LinkedList<T>& LinkedList<T>::operator=(const LinkedList<T>&) [with T = int]’:
-ll.h:164:1: error: control reaches end of non-void function [-Werror=return-type]
- }
- ^
-cc1plus: all warnings being treated as errors
-The code did not compile.  This test failed.
+The code compiled.
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
 -----------------------------------------------
 testcase 2 : Testing with LinkedList<std::string>
 ...compiling...
-In file included from tester.cpp:1:0:
-ll.h: In member function ‘LinkedList<T>& LinkedList<T>::operator=(const LinkedList<T>&) [with T = std::__cxx11::basic_string<char>]’:
-ll.h:164:1: error: control reaches end of non-void function [-Werror=return-type]
- }
- ^
-cc1plus: all warnings being treated as errors
-The code did not compile.  This test failed.
+The code compiled.
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
 -----------------------------------------------
 testcase 3 : Testing with LinkedList<(a custom class we wrote)>
 ...compiling...
-In file included from tester.cpp:1:0:
-ll.h: In member function ‘LinkedList<T>& LinkedList<T>::operator=(const LinkedList<T>&) [with T = Tester]’:
-ll.h:164:1: error: control reaches end of non-void function [-Werror=return-type]
- }
- ^
-cc1plus: all warnings being treated as errors
-The code did not compile.  This test failed.
+The code compiled.
+  - Valgrind was clean (no errors, no memory leaks)
+Your file matched the expected output
+Testcase passed 
 
-Overall Grade: F
+Overall Grade: A
