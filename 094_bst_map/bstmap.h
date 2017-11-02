@@ -44,7 +44,7 @@ template<typename K, typename V>
 };
 
 
-////implementation
+//////implementation
 template<typename K, typename V>
   void BstMap<K,V>::add(const K & key, const V & value) {
   Node ** current = &root;
