@@ -1,0 +1,49 @@
+Grading at 11/02/2017:02:37:37.584279
+For commit ID 11811d52763c58d8fc8e5a7e9d0b17e9201327e9
+**Testing broken implementation 1 **
+-------------------------------------
+
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+When high = -1and low = -5
+ans != -1
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+When high = 5and low = -1
+ans != 5
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+When high = 3and low = -1
+ans != -1
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+When high = -1and low = -5
+ans != -256
+
+**Testing correct implementation **
+-------------------------------------
+
+
+Your tests identified the problems with all broken programs
+
+Overall Grade: PASSED
