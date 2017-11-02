@@ -69,7 +69,7 @@ int main(int argc, char ** argv) {
   check(&myf1, -5, -1, -2, "myf1.1");
   check(&myf1, 1, 5, 1, "myf1.2");
   check(&myf1, 1, 1, 1, "myf1.3");
-  check(&myf2, 0, 1000, 500 , "myf2.0");
+  //  check(&myf2, 0, 1000, 500 , "myf2.0");
   check(&myf3, -1, 5,4, "myf3.0");
   return EXIT_SUCCESS;
 }
