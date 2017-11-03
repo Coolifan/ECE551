@@ -106,11 +106,11 @@ template<typename K, typename V>
   Node ** current = &root;
   while (*current != NULL) {
     if (key < (*current)->nodekey) {
-      current = &(*current)->left;
+      current = &((*current)->left);
       continue;
     }
     else if (key > (*current)->nodekey) {
-      current = &(*current)->right;
+      current = &((*current)->right);
       continue;
     }
     else {
@@ -128,25 +128,41 @@ template<typename K, typename V>
       }
       else {
 	Node * replacement = (*current)->left;
+	Node ** rep = &(*current)->left;
 	if (replacement->right != NULL) {
 	  while (replacement->right != NULL) {
 	    if (replacement->right->right == NULL) {
 	      break;
 	    }
+	    rep = &(*rep)->right;
 	    replacement = replacement->right;
 	  }
-	
-	  (*current)->nodevalue = replacement->right->nodevalue;
-	  (*current)->nodekey = replacement->right->nodekey;
+	  K tempkey = replacement->right->nodekey;
+	  V tempvalue = replacement->right->nodevalue;
+	  //replacement->right->nodevalue = (*current)->nodevalue;
+	  //replacement->right->nodekey = (*current)->nodekey;
+
+	  Node * remainleft = replacement->right->left;
 	  delete replacement->right;
-	  replacement->right = NULL;
+	  (*rep)->right = remainleft;
+	  (*current)->nodekey = tempkey;
+	  (*current)->nodevalue = tempvalue;
+	  //remove(replacement->right->nodekey);
+	  //replacement->right = NULL;
 	  return;
 	}
 	else {
-	  (*current)->nodekey = replacement->nodekey;
-	  (*current)->nodevalue = replacement->nodevalue;
+	  K tempkey = replacement->nodekey;
+	  V tempvalue = replacement->nodevalue;
+	  // replacement->nodekey = (*current)->nodekey;
+	  //replacement->nodevalue = (*current)->nodevalue;
+	  Node * remainleft = replacement->left;
 	  delete replacement;
-	  (*current)->left = NULL;
+	  (*current)->left = remainleft;
+	  (*current)->nodekey = tempkey;
+	  (*current)->nodevalue = tempvalue;
+	  //remove(replacement->nodekey);
+	  //(*current)->left = NULL;
 	  return;
 	}	
       }
