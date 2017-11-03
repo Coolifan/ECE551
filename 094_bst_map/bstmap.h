@@ -23,10 +23,29 @@ template<typename K, typename V>
       delete current;
     }
   }
-
+  void copyhelper(Node * ptr) {
+    if (ptr != NULL) {
+      add(ptr->nodekey, ptr->nodevalue);
+      copyhelper(ptr->left);
+      copyhelper(ptr->right);
+    }
+  }
+  
  public:
  BstMap() : root(NULL) {}
- 
+ BstMap(const BstMap<K, V> & rhs): root(NULL) {
+    Node * ptr = rhs.root;
+    copyhelper(ptr);
+  }
+  BstMap<K, V> & operator= (const BstMap<K,V> & rhs) {
+    if (this != &rhs) {
+      destroy(root);
+      root = NULL;
+      copyhelper(rhs.root);
+      
+    }
+    return *this;
+  }
   void add(const K & key, const V & value);
   const V & lookup(const K & key) const throw (std::invalid_argument);
   void remove(const K & key);

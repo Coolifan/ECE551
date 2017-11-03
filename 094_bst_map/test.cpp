@@ -22,14 +22,21 @@ int main(int argc, char ** argv) {
   tree1.add(3,30);
   tree1.add(1,10);
   tree1.add(1,666);
-  // tree1.remove(2);
+  tree1.remove(7);
   try{
-  int lookvalue = tree1.lookup(888);
-  std::cout<<lookvalue<<std::endl;
+    int lookvalue = tree1.lookup(888);
+    std::cout<<lookvalue<<std::endl;
   }
   catch (const std::invalid_argument & e) {
     std::cout<<"catched"<<std::endl;
   }
+  BstMap<int, int> tree2(tree1);
+  BstMap<int, int> tree3 = tree2;
+  tree2.print();
+  tree3.remove(5);
+  tree3.print();
+
+  
   tree1.print();
   
   return EXIT_SUCCESS;
