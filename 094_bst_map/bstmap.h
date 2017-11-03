@@ -139,36 +139,26 @@ template<typename K, typename V>
 	  }
 	  K tempkey = replacement->right->nodekey;
 	  V tempvalue = replacement->right->nodevalue;
-	  //replacement->right->nodevalue = (*current)->nodevalue;
-	  //replacement->right->nodekey = (*current)->nodekey;
-
 	  Node * remainleft = replacement->right->left;
 	  delete replacement->right;
 	  (*rep)->right = remainleft;
 	  (*current)->nodekey = tempkey;
 	  (*current)->nodevalue = tempvalue;
-	  //remove(replacement->right->nodekey);
-	  //replacement->right = NULL;
 	  return;
 	}
 	else {
 	  K tempkey = replacement->nodekey;
 	  V tempvalue = replacement->nodevalue;
-	  // replacement->nodekey = (*current)->nodekey;
-	  //replacement->nodevalue = (*current)->nodevalue;
 	  Node * remainleft = replacement->left;
 	  delete replacement;
 	  (*current)->left = remainleft;
 	  (*current)->nodekey = tempkey;
 	  (*current)->nodevalue = tempvalue;
-	  //remove(replacement->nodekey);
-	  //(*current)->left = NULL;
 	  return;
 	}	
       }
     }
-  }
-  
+  }  
 }
 
 template<typename K, typename V>
