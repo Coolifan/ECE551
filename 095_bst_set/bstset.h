@@ -143,7 +143,7 @@ void BstSet<T>::remove(const T & key) {
 	  return;
 	}
 	else {
-	  K tempkey = replacement->nodekey;
+	  T tempkey = replacement->nodekey;
 	  Node * remainleft = replacement->left;
 	  delete replacement;
 	  (*current)->left = remainleft;
