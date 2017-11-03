@@ -1,0 +1,40 @@
+Grading at 11/03/2017:02:33:40.266533
+For commit ID d7fdf3bff7a061ee424825032175280a0463ad0b
+-----------------------------------------------
+testcase 1 : Testing with BstSet<int>
+...compiling...
+In file included from 90-tester.cpp:1:0:
+bstset.h: In member function ‘void BstSet<T>::remove(const T&)’:
+bstset.h:146:4: error: ‘K’ was not declared in this scope
+    K tempkey = replacement->nodekey;
+    ^
+bstset.h:150:26: error: ‘tempkey’ was not declared in this scope
+    (*current)->nodekey = tempkey;
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 2 : Testing with BstSet<std::string>
+...compiling...
+In file included from 90-tester.cpp:1:0:
+bstset.h: In member function ‘void BstSet<T>::remove(const T&)’:
+bstset.h:146:4: error: ‘K’ was not declared in this scope
+    K tempkey = replacement->nodekey;
+    ^
+bstset.h:150:26: error: ‘tempkey’ was not declared in this scope
+    (*current)->nodekey = tempkey;
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 3 : Testing with BstSet<(a custom class we wrote)>
+...compiling...
+In file included from 90-tester.cpp:1:0:
+bstset.h: In member function ‘void BstSet<T>::remove(const T&)’:
+bstset.h:146:4: error: ‘K’ was not declared in this scope
+    K tempkey = replacement->nodekey;
+    ^
+bstset.h:150:26: error: ‘tempkey’ was not declared in this scope
+    (*current)->nodekey = tempkey;
+                          ^
+The code did not compile.  This test failed.
+
+Overall Grade: F
