@@ -1,5 +1,5 @@
-Grading at 11/08/2017:03:18:00.250868
-For commit ID 1aafadd4682e52a739ba87db33042e7bcd10b2d3
+Grading at 11/08/2017:03:24:46.574737
+For commit ID 4434b0f5749283b17f60a4a3f8aef46635df05f2
 Running make
 g++ --std=gnu++11 -ggdb3 -pedantic -Wall -Werror -o dedup dedup.cpp
 Found executable dedup
@@ -8,54 +8,96 @@ testcase 1 : ./dedup /var/dedup/d000
   - Valgrind was clean (no errors, no memory leaks)
 Checking output:
 **Testcase failed **
-Expected: # but found /var/dedup/d000
-Expected: rm but found #Removing /var/dedup/d000/x/file7 (duplicate of /var/dedup/d000/file88).
-Expected: rm but found #Removing /var/dedup/d000/x/file10 (duplicate of /var/dedup/d000/file87).
-Expected: rm but found #Removing /var/dedup/d000/x/file12 (duplicate of /var/dedup/d000/file149).
-Expected: rm but found #Removing /var/dedup/d000/x/file17 (duplicate of /var/dedup/d000/file71).
-Expected: rm but found #Removing /var/dedup/d000/x/file22 (duplicate of /var/dedup/d000/file141).
-Expected: rm but found #Removing /var/dedup/d000/x/file27 (duplicate of /var/dedup/d000/file21).
-Expected: rm but found #Removing /var/dedup/d000/x/file29 (duplicate of /var/dedup/d000/file6).
-Expected: rm but found #Removing /var/dedup/d000/x/file34 (duplicate of /var/dedup/d000/file116).
-Expected: rm but found #Removing /var/dedup/d000/x/file36 (duplicate of /var/dedup/d000/file28).
-Expected: rm but found #Removing /var/dedup/d000/x/file44 (duplicate of /var/dedup/d000/file146).
-Expected: rm but found #Removing /var/dedup/d000/x/file50 (duplicate of /var/dedup/d000/file158).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file2 (duplicate of /var/dedup/d000/file122).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file5 (duplicate of /var/dedup/d000/file103).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file9 (duplicate of /var/dedup/d000/file119).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file11 (duplicate of /var/dedup/d000/x/file20).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file13 (duplicate of /var/dedup/d000/file136).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file18 (duplicate of /var/dedup/d000/file99).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file22 (duplicate of /var/dedup/d000/file119).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file24 (duplicate of /var/dedup/d000/file49).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file27 (duplicate of /var/dedup/d000/file135).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file30 (duplicate of /var/dedup/d000/x/file19).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file32 (duplicate of /var/dedup/d000/file134).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file34 (duplicate of /var/dedup/d000/file11).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file38 (duplicate of /var/dedup/d000/file108).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file42 (duplicate of /var/dedup/d000/file13).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file44 (duplicate of /var/dedup/d000/file91).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file47 (duplicate of /var/dedup/d000/file107).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file49 (duplicate of /var/dedup/d000/x/y/file40).
-Expected: rm but found #Removing /var/dedup/d000/file172 (duplicate of /var/dedup/d000/x/y/file40).
-Expected: rm but found #Removing /var/dedup/d000/file175 (duplicate of /var/dedup/d000/x/y/file17).
-Expected: rm but found #Removing /var/dedup/d000/file181 (duplicate of /var/dedup/d000/x/file45).
-Expected: rm but found #Removing /var/dedup/d000/file189 (duplicate of /var/dedup/d000/x/y/file36).
-Expected: rm but found #Removing /var/dedup/d000/file195 (duplicate of /var/dedup/d000/x/file41).
-Expected: rm but found #Removing /var/dedup/d000/file207 (duplicate of /var/dedup/d000/x/y/file39).
-Expected: rm but found #Removing /var/dedup/d000/file214 (duplicate of /var/dedup/d000/x/y/file50).
-Expected: rm but found #Removing /var/dedup/d000/file222 (duplicate of /var/dedup/d000/x/file24).
-Expected: rm but found #Removing /var/dedup/d000/file231 (duplicate of /var/dedup/d000/x/y/file15).
-Expected: rm but found #Removing /var/dedup/d000/file237 (duplicate of /var/dedup/d000/x/file8).
-Expected: rm but found #Removing /var/dedup/d000/file242 (duplicate of /var/dedup/d000/x/y/file7).
-Expected: rm but found #Removing /var/dedup/d000/file244 (duplicate of /var/dedup/d000/x/file30).
-Expected: rm but found #Removing /var/dedup/d000/file250 (duplicate of /var/dedup/d000/x/file42).
-Expected: rm but found #Removing /var/dedup/d000/file274 (duplicate of /var/dedup/d000/x/file25).
-Expected: rm but found #Removing /var/dedup/d000/file276 (duplicate of /var/dedup/d000/x/file16).
-Expected: rm but found #Removing /var/dedup/d000/file285 (duplicate of /var/dedup/d000/x/file21).
-Bad format:
-  #Removing /var/dedup/d000/file297 (duplicate of /var/dedup/d000/x/file48).
-  
+Expected: rm but found #rm /var/dedup/d000/x/file4
+Expected: rm but found #rm /var/dedup/d000/x/file5
+Expected: rm but found #rm /var/dedup/d000/x/file7
+Expected: rm but found #rm /var/dedup/d000/x/file9
+Expected: rm but found #rm /var/dedup/d000/x/file10
+Expected: rm but found #rm /var/dedup/d000/x/file11
+Expected: rm but found #rm /var/dedup/d000/x/file12
+Expected: rm but found #rm /var/dedup/d000/x/file13
+Expected: rm but found #rm /var/dedup/d000/x/file17
+Expected: rm but found #rm /var/dedup/d000/x/file18
+Expected: rm but found #rm /var/dedup/d000/x/file22
+Expected: rm but found #rm /var/dedup/d000/x/file23
+Expected: rm but found #rm /var/dedup/d000/x/file27
+Expected: rm but found #rm /var/dedup/d000/x/file28
+Expected: rm but found #rm /var/dedup/d000/x/file29
+Expected: rm but found #rm /var/dedup/d000/x/file32
+Expected: rm but found #rm /var/dedup/d000/x/file34
+Expected: rm but found #rm /var/dedup/d000/x/file35
+Expected: rm but found #rm /var/dedup/d000/x/file36
+Expected: rm but found #rm /var/dedup/d000/x/file37
+Expected: rm but found #rm /var/dedup/d000/x/file44
+Expected: rm but found #rm /var/dedup/d000/x/file46
+Expected: rm but found #rm /var/dedup/d000/x/file50
+Expected: rm but found #rm /var/dedup/d000/x/y/file1
+Expected: rm but found #rm /var/dedup/d000/x/y/file2
+Expected: rm but found #rm /var/dedup/d000/x/y/file3
+Expected: rm but found #rm /var/dedup/d000/x/y/file5
+Expected: rm but found #rm /var/dedup/d000/x/y/file6
+Expected: rm but found #rm /var/dedup/d000/x/y/file9
+Expected: rm but found #rm /var/dedup/d000/x/y/file10
+Expected: rm but found #rm /var/dedup/d000/x/y/file11
+Expected: rm but found #rm /var/dedup/d000/x/y/file12
+Expected: rm but found #rm /var/dedup/d000/x/y/file13
+Expected: rm but found #rm /var/dedup/d000/x/y/file14
+Expected: rm but found #rm /var/dedup/d000/x/y/file18
+Expected: rm but found #rm /var/dedup/d000/x/y/file21
+Expected: rm but found #rm /var/dedup/d000/x/y/file22
+Expected: rm but found #rm /var/dedup/d000/x/y/file23
+Expected: rm but found #rm /var/dedup/d000/x/y/file24
+Expected: rm but found #rm /var/dedup/d000/x/y/file25
+Expected: rm but found #rm /var/dedup/d000/x/y/file27
+Expected: rm but found #rm /var/dedup/d000/x/y/file28
+Expected: rm but found #rm /var/dedup/d000/x/y/file30
+Expected: rm but found #rm /var/dedup/d000/x/y/file31
+Expected: rm but found #rm /var/dedup/d000/x/y/file32
+Expected: rm but found #rm /var/dedup/d000/x/y/file33
+Expected: rm but found #rm /var/dedup/d000/x/y/file34
+Expected: rm but found #rm /var/dedup/d000/x/y/file37
+Expected: rm but found #rm /var/dedup/d000/x/y/file38
+Expected: rm but found #rm /var/dedup/d000/x/y/file41
+Expected: rm but found #rm /var/dedup/d000/x/y/file42
+Expected: rm but found #rm /var/dedup/d000/x/y/file43
+Expected: rm but found #rm /var/dedup/d000/x/y/file44
+Expected: rm but found #rm /var/dedup/d000/x/y/file45
+Expected: rm but found #rm /var/dedup/d000/x/y/file47
+Expected: rm but found #rm /var/dedup/d000/x/y/file48
+Expected: rm but found #rm /var/dedup/d000/x/y/file49
+Expected: rm but found #rm /var/dedup/d000/file169
+Expected: rm but found #rm /var/dedup/d000/file172
+Expected: rm but found #rm /var/dedup/d000/file173
+Expected: rm but found #rm /var/dedup/d000/file175
+Expected: rm but found #rm /var/dedup/d000/file177
+Expected: rm but found #rm /var/dedup/d000/file181
+Expected: rm but found #rm /var/dedup/d000/file184
+Expected: rm but found #rm /var/dedup/d000/file189
+Expected: rm but found #rm /var/dedup/d000/file192
+Expected: rm but found #rm /var/dedup/d000/file195
+Expected: rm but found #rm /var/dedup/d000/file203
+Expected: rm but found #rm /var/dedup/d000/file207
+Expected: rm but found #rm /var/dedup/d000/file210
+Expected: rm but found #rm /var/dedup/d000/file214
+Expected: rm but found #rm /var/dedup/d000/file220
+Expected: rm but found #rm /var/dedup/d000/file222
+Expected: rm but found #rm /var/dedup/d000/file228
+Expected: rm but found #rm /var/dedup/d000/file231
+Expected: rm but found #rm /var/dedup/d000/file233
+Expected: rm but found #rm /var/dedup/d000/file237
+Expected: rm but found #rm /var/dedup/d000/file238
+Expected: rm but found #rm /var/dedup/d000/file242
+Expected: rm but found #rm /var/dedup/d000/file243
+Expected: rm but found #rm /var/dedup/d000/file244
+Expected: rm but found #rm /var/dedup/d000/file245
+Expected: rm but found #rm /var/dedup/d000/file250
+Expected: rm but found #rm /var/dedup/d000/file253
+Expected: rm but found #rm /var/dedup/d000/file274
+Expected: rm but found #rm /var/dedup/d000/file275
+Expected: rm but found #rm /var/dedup/d000/file276
+Expected: rm but found #rm /var/dedup/d000/file278
+Expected: rm but found #rm /var/dedup/d000/file285
+Expected: rm but found #rm /var/dedup/d000/file297
 These groupings were incorrect:
   Expected all but one of:
     /var/dedup/d000/file103
@@ -927,50 +969,88 @@ testcase 2 : ./dedup /var/dedup/d001
   - Valgrind was clean (no errors, no memory leaks)
 Checking output:
 **Testcase failed **
-Expected: # but found /var/dedup/d001
-Expected: rm but found #Removing /var/dedup/d001/cbbac (duplicate of /var/dedup/d001/x/y/z/file934).
-Expected: rm but found #Removing /var/dedup/d001/aaccba (duplicate of /var/dedup/d001/x/y/z/file1528).
-Expected: rm but found #Removing /var/dedup/d001/acacaa (duplicate of /var/dedup/d001/x/y/z/file1908).
-Expected: rm but found #Removing /var/dedup/d001/acbacb (duplicate of /var/dedup/d001/x/y/z/file1949).
-Expected: rm but found #Removing /var/dedup/d001/bccbaa (duplicate of /var/dedup/d001/x/y/z/file3044).
-Expected: rm but found #Removing /var/dedup/d001/cacacc (duplicate of /var/dedup/d001/x/y/z/file3550).
-Expected: rm but found #Removing /var/dedup/d001/ccaccc (duplicate of /var/dedup/d001/x/y/z/file3966).
-Expected: rm but found #Removing /var/dedup/d001/abbbcab (duplicate of /var/dedup/d001/x/y/z/file6837).
-Expected: rm but found #Removing /var/dedup/d001/acaabbb (duplicate of /var/dedup/d001/x/y/z/file7529).
-Expected: rm but found #Removing /var/dedup/d001/acccaab (duplicate of /var/dedup/d001/x/y/z/file8149).
-Expected: rm but found #Removing /var/dedup/d001/baaccac (duplicate of /var/dedup/d001/x/y/z/file9718).
-Expected: rm but found #Removing /var/dedup/d001/babcbcc (duplicate of /var/dedup/d001/x/y/z/file9966).
-Expected: rm but found #Removing /var/dedup/d001/bacbaaa (duplicate of /var/dedup/d001/x/y/z/file10132).
-Expected: rm but found #Removing /var/dedup/d001/bcaaaca (duplicate of /var/dedup/d001/x/y/z/file11612).
-Expected: rm but found #Removing /var/dedup/d001/bcacbaa (duplicate of /var/dedup/d001/x/y/z/file11748).
-Expected: rm but found #Removing /var/dedup/d001/bcbbabb (duplicate of /var/dedup/d001/x/y/z/file11929).
-Expected: rm but found #Removing /var/dedup/d001/bccbabc (duplicate of /var/dedup/d001/x/y/z/file12186).
-Expected: rm but found #Removing /var/dedup/d001/caabbba (duplicate of /var/dedup/d001/x/y/z/file13736).
-Expected: rm but found #Removing /var/dedup/d001/cbcbccb (duplicate of /var/dedup/d001/x/y/z/file15293).
-Expected: rm but found #Removing /var/dedup/d001/ccabbbc (duplicate of /var/dedup/d001/x/y/z/file15786).
-Expected: rm but found #Removing /var/dedup/d001/cccbbca (duplicate of /var/dedup/d001/x/y/z/file16300).
-Expected: rm but found #Removing /var/dedup/d001/aaabbbab (duplicate of /var/dedup/d001/x/y/z/file22181).
-Expected: rm but found #Removing /var/dedup/d001/aaacaaac (duplicate of /var/dedup/d001/x/y/z/file22358).
-Expected: rm but found #Removing /var/dedup/d001/aaacccba (duplicate of /var/dedup/d001/x/y/z/file22520).
-Expected: rm but found #Removing /var/dedup/d001/aabacacb (duplicate of /var/dedup/d001/x/y/z/file23005).
-Expected: rm but found #Removing /var/dedup/d001/aabcbbbc (duplicate of /var/dedup/d001/x/y/z/file23466).
-Expected: rm but found #Removing /var/dedup/d001/aacacabb (duplicate of /var/dedup/d001/x/y/z/file24025).
-Expected: rm but found #Removing /var/dedup/d001/aacbacaa (duplicate of /var/dedup/d001/x/y/z/file24180).
-Expected: rm but found #Removing /var/dedup/d001/aacbcaac (duplicate of /var/dedup/d001/x/y/z/file24278).
-Expected: rm but found #Removing /var/dedup/d001/aacccccc (duplicate of /var/dedup/d001/x/y/z/file24574).
-Expected: rm but found #Removing /var/dedup/d001/abaaacbb (duplicate of /var/dedup/d001/x/y/z/file25977).
-Expected: rm but found #Removing /var/dedup/d001/abbbaaab (duplicate of /var/dedup/d001/x/y/z/file27221).
-Expected: rm but found #Removing /var/dedup/d001/abbbbcab (duplicate of /var/dedup/d001/x/y/z/file27317).
-Expected: rm but found #Removing /var/dedup/d001/abbcccab (duplicate of /var/dedup/d001/x/y/z/file27637).
-Expected: rm but found #Removing /var/dedup/d001/acacabbc (duplicate of /var/dedup/d001/x/y/z/file30570).
-Expected: rm but found #Removing /var/dedup/d001/acbacaca (duplicate of /var/dedup/d001/x/y/z/file31196).
-Expected: rm but found #Removing /var/dedup/d001/acbbabca (duplicate of /var/dedup/d001/x/y/z/file31340).
-Expected: rm but found #Removing /var/dedup/d001/acbccbca (duplicate of /var/dedup/d001/x/y/z/file31724).
-Expected: rm but found #Removing /var/dedup/d001/accbccaa (duplicate of /var/dedup/d001/x/y/z/file32500).
-Expected: rm but found #Removing /var/dedup/d001/acccabcc (duplicate of /var/dedup/d001/x/y/z/file32622).
-Bad format:
-  #Removing /var/dedup/d001/acccacab (duplicate of /var/dedup/d001/x/y/z/file32629).
-  
+Expected: rm but found #rm /var/dedup/d001/x/y/file0
+Expected: rm but found #rm /var/dedup/d001/bacbc
+Expected: rm but found #rm /var/dedup/d001/cbbac
+Expected: rm but found #rm /var/dedup/d001/cbcbb
+Expected: rm but found #rm /var/dedup/d001/aaccba
+Expected: rm but found #rm /var/dedup/d001/abaacc
+Expected: rm but found #rm /var/dedup/d001/acacaa
+Expected: rm but found #rm /var/dedup/d001/acacbb
+Expected: rm but found #rm /var/dedup/d001/acbacb
+Expected: rm but found #rm /var/dedup/d001/babaaa
+Expected: rm but found #rm /var/dedup/d001/bccbaa
+Expected: rm but found #rm /var/dedup/d001/bcccca
+Expected: rm but found #rm /var/dedup/d001/cacacc
+Expected: rm but found #rm /var/dedup/d001/cacbaa
+Expected: rm but found #rm /var/dedup/d001/ccaccc
+Expected: rm but found #rm /var/dedup/d001/ababcab
+Expected: rm but found #rm /var/dedup/d001/abbbcab
+Expected: rm but found #rm /var/dedup/d001/abbcaab
+Expected: rm but found #rm /var/dedup/d001/acaabbb
+Expected: rm but found #rm /var/dedup/d001/acaabcc
+Expected: rm but found #rm /var/dedup/d001/acccaab
+Expected: rm but found #rm /var/dedup/d001/baababa
+Expected: rm but found #rm /var/dedup/d001/baaccac
+Expected: rm but found #rm /var/dedup/d001/babaaba
+Expected: rm but found #rm /var/dedup/d001/babcbcc
+Expected: rm but found #rm /var/dedup/d001/bacaabb
+Expected: rm but found #rm /var/dedup/d001/bacbaaa
+Expected: rm but found #rm /var/dedup/d001/bacbccc
+Expected: rm but found #rm /var/dedup/d001/bcaaaca
+Expected: rm but found #rm /var/dedup/d001/bcacabc
+Expected: rm but found #rm /var/dedup/d001/bcacbaa
+Expected: rm but found #rm /var/dedup/d001/bcbabba
+Expected: rm but found #rm /var/dedup/d001/bcbbabb
+Expected: rm but found #rm /var/dedup/d001/bccabca
+Expected: rm but found #rm /var/dedup/d001/bccbabc
+Expected: rm but found #rm /var/dedup/d001/caaacaa
+Expected: rm but found #rm /var/dedup/d001/caabbba
+Expected: rm but found #rm /var/dedup/d001/cbabccc
+Expected: rm but found #rm /var/dedup/d001/cbcbccb
+Expected: rm but found #rm /var/dedup/d001/ccabacc
+Expected: rm but found #rm /var/dedup/d001/ccabbbc
+Expected: rm but found #rm /var/dedup/d001/ccbcbaa
+Expected: rm but found #rm /var/dedup/d001/cccbbca
+Expected: rm but found #rm /var/dedup/d001/aaabbabc
+Expected: rm but found #rm /var/dedup/d001/aaabbbab
+Expected: rm but found #rm /var/dedup/d001/aaabcbbc
+Expected: rm but found #rm /var/dedup/d001/aaacaaac
+Expected: rm but found #rm /var/dedup/d001/aaacaabb
+Expected: rm but found #rm /var/dedup/d001/aaacccba
+Expected: rm but found #rm /var/dedup/d001/aabacabb
+Expected: rm but found #rm /var/dedup/d001/aabacacb
+Expected: rm but found #rm /var/dedup/d001/aabbcacb
+Expected: rm but found #rm /var/dedup/d001/aabcbbbc
+Expected: rm but found #rm /var/dedup/d001/aacabccb
+Expected: rm but found #rm /var/dedup/d001/aacacabb
+Expected: rm but found #rm /var/dedup/d001/aacacacc
+Expected: rm but found #rm /var/dedup/d001/aacbacaa
+Expected: rm but found #rm /var/dedup/d001/aacbbbaa
+Expected: rm but found #rm /var/dedup/d001/aacbcaac
+Expected: rm but found #rm /var/dedup/d001/aaccbacc
+Expected: rm but found #rm /var/dedup/d001/aacccccc
+Expected: rm but found #rm /var/dedup/d001/abaaacaa
+Expected: rm but found #rm /var/dedup/d001/abaaacbb
+Expected: rm but found #rm /var/dedup/d001/abaccacc
+Expected: rm but found #rm /var/dedup/d001/abbbaaab
+Expected: rm but found #rm /var/dedup/d001/abbbacbc
+Expected: rm but found #rm /var/dedup/d001/abbbbcab
+Expected: rm but found #rm /var/dedup/d001/abbbcaaa
+Expected: rm but found #rm /var/dedup/d001/abbcccab
+Expected: rm but found #rm /var/dedup/d001/acaacccb
+Expected: rm but found #rm /var/dedup/d001/acacabbc
+Expected: rm but found #rm /var/dedup/d001/acbabccb
+Expected: rm but found #rm /var/dedup/d001/acbacaca
+Expected: rm but found #rm /var/dedup/d001/acbacbab
+Expected: rm but found #rm /var/dedup/d001/acbbabca
+Expected: rm but found #rm /var/dedup/d001/acbbbbab
+Expected: rm but found #rm /var/dedup/d001/acbccbca
+Expected: rm but found #rm /var/dedup/d001/accbbabb
+Expected: rm but found #rm /var/dedup/d001/accbccaa
+Expected: rm but found #rm /var/dedup/d001/acccabac
+Expected: rm but found #rm /var/dedup/d001/acccabcc
+Expected: rm but found #rm /var/dedup/d001/acccacab
 These groupings were incorrect:
   Expected all but one of:
     /var/dedup/d001/a
@@ -1796,97 +1876,178 @@ testcase 3 : ./dedup /var/dedup/*
   - Valgrind was clean (no errors, no memory leaks)
 Checking output:
 **Testcase failed **
-Expected: # but found /var/dedup/d000
-Expected: rm but found #Removing /var/dedup/d000/x/file7 (duplicate of /var/dedup/d000/file88).
-Expected: rm but found #Removing /var/dedup/d000/x/file10 (duplicate of /var/dedup/d000/file87).
-Expected: rm but found #Removing /var/dedup/d000/x/file12 (duplicate of /var/dedup/d000/file149).
-Expected: rm but found #Removing /var/dedup/d000/x/file17 (duplicate of /var/dedup/d000/file71).
-Expected: rm but found #Removing /var/dedup/d000/x/file22 (duplicate of /var/dedup/d000/file141).
-Expected: rm but found #Removing /var/dedup/d000/x/file27 (duplicate of /var/dedup/d000/file21).
-Expected: rm but found #Removing /var/dedup/d000/x/file29 (duplicate of /var/dedup/d000/file6).
-Expected: rm but found #Removing /var/dedup/d000/x/file34 (duplicate of /var/dedup/d000/file116).
-Expected: rm but found #Removing /var/dedup/d000/x/file36 (duplicate of /var/dedup/d000/file28).
-Expected: rm but found #Removing /var/dedup/d000/x/file44 (duplicate of /var/dedup/d000/file146).
-Expected: rm but found #Removing /var/dedup/d000/x/file50 (duplicate of /var/dedup/d000/file158).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file2 (duplicate of /var/dedup/d000/file122).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file5 (duplicate of /var/dedup/d000/file103).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file9 (duplicate of /var/dedup/d000/file119).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file11 (duplicate of /var/dedup/d000/x/file20).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file13 (duplicate of /var/dedup/d000/file136).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file18 (duplicate of /var/dedup/d000/file99).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file22 (duplicate of /var/dedup/d000/file119).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file24 (duplicate of /var/dedup/d000/file49).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file27 (duplicate of /var/dedup/d000/file135).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file30 (duplicate of /var/dedup/d000/x/file19).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file32 (duplicate of /var/dedup/d000/file134).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file34 (duplicate of /var/dedup/d000/file11).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file38 (duplicate of /var/dedup/d000/file108).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file42 (duplicate of /var/dedup/d000/file13).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file44 (duplicate of /var/dedup/d000/file91).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file47 (duplicate of /var/dedup/d000/file107).
-Expected: rm but found #Removing /var/dedup/d000/x/y/file49 (duplicate of /var/dedup/d000/x/y/file40).
-Expected: rm but found #Removing /var/dedup/d000/file172 (duplicate of /var/dedup/d000/x/y/file40).
-Expected: rm but found #Removing /var/dedup/d000/file175 (duplicate of /var/dedup/d000/x/y/file17).
-Expected: rm but found #Removing /var/dedup/d000/file181 (duplicate of /var/dedup/d000/x/file45).
-Expected: rm but found #Removing /var/dedup/d000/file189 (duplicate of /var/dedup/d000/x/y/file36).
-Expected: rm but found #Removing /var/dedup/d000/file195 (duplicate of /var/dedup/d000/x/file41).
-Expected: rm but found #Removing /var/dedup/d000/file207 (duplicate of /var/dedup/d000/x/y/file39).
-Expected: rm but found #Removing /var/dedup/d000/file214 (duplicate of /var/dedup/d000/x/y/file50).
-Expected: rm but found #Removing /var/dedup/d000/file222 (duplicate of /var/dedup/d000/x/file24).
-Expected: rm but found #Removing /var/dedup/d000/file231 (duplicate of /var/dedup/d000/x/y/file15).
-Expected: rm but found #Removing /var/dedup/d000/file237 (duplicate of /var/dedup/d000/x/file8).
-Expected: rm but found #Removing /var/dedup/d000/file242 (duplicate of /var/dedup/d000/x/y/file7).
-Expected: rm but found #Removing /var/dedup/d000/file244 (duplicate of /var/dedup/d000/x/file30).
-Expected: rm but found #Removing /var/dedup/d000/file250 (duplicate of /var/dedup/d000/x/file42).
-Expected: rm but found #Removing /var/dedup/d000/file274 (duplicate of /var/dedup/d000/x/file25).
-Expected: rm but found #Removing /var/dedup/d000/file276 (duplicate of /var/dedup/d000/x/file16).
-Expected: rm but found #Removing /var/dedup/d000/file285 (duplicate of /var/dedup/d000/x/file21).
-Expected: rm but found /var/dedup/d001
-Expected: rm but found #Removing /var/dedup/d001/bacbc (duplicate of /var/dedup/d001/x/y/z/file634).
-Expected: rm but found #Removing /var/dedup/d001/cbcbb (duplicate of /var/dedup/d001/x/y/z/file953).
-Expected: rm but found #Removing /var/dedup/d001/abaacc (duplicate of /var/dedup/d001/x/y/z/file1630).
-Expected: rm but found #Removing /var/dedup/d001/acacbb (duplicate of /var/dedup/d001/x/y/z/file1913).
-Expected: rm but found #Removing /var/dedup/d001/babaaa (duplicate of /var/dedup/d001/x/y/z/file2452).
-Expected: rm but found #Removing /var/dedup/d001/bcccca (duplicate of /var/dedup/d001/x/y/z/file3068).
-Expected: rm but found #Removing /var/dedup/d001/cacbaa (duplicate of /var/dedup/d001/x/y/z/file3556).
-Expected: rm but found #Removing /var/dedup/d001/ababcab (duplicate of /var/dedup/d001/x/y/z/file6581).
-Expected: rm but found #Removing /var/dedup/d001/abbcaab (duplicate of /var/dedup/d001/x/y/z/file6869).
-Expected: rm but found #Removing /var/dedup/d001/acaabcc (duplicate of /var/dedup/d001/x/y/z/file7534).
-Expected: rm but found #Removing /var/dedup/d001/baababa (duplicate of /var/dedup/d001/x/y/z/file9624).
-Expected: rm but found #Removing /var/dedup/d001/babaaba (duplicate of /var/dedup/d001/x/y/z/file9816).
-Expected: rm but found #Removing /var/dedup/d001/bacaabb (duplicate of /var/dedup/d001/x/y/z/file10073).
-Expected: rm but found #Removing /var/dedup/d001/bacbccc (duplicate of /var/dedup/d001/x/y/z/file10174).
-Expected: rm but found #Removing /var/dedup/d001/bcacabc (duplicate of /var/dedup/d001/x/y/z/file11738).
-Expected: rm but found #Removing /var/dedup/d001/bcbabba (duplicate of /var/dedup/d001/x/y/z/file11880).
-Expected: rm but found #Removing /var/dedup/d001/bccabca (duplicate of /var/dedup/d001/x/y/z/file12140).
-Expected: rm but found #Removing /var/dedup/d001/caaacaa (duplicate of /var/dedup/d001/x/y/z/file13684).
-Expected: rm but found #Removing /var/dedup/d001/cbabccc (duplicate of /var/dedup/d001/x/y/z/file14782).
-Expected: rm but found #Removing /var/dedup/d001/ccabacc (duplicate of /var/dedup/d001/x/y/z/file15774).
-Expected: rm but found #Removing /var/dedup/d001/ccbcbaa (duplicate of /var/dedup/d001/x/y/z/file16100).
-Expected: rm but found #Removing /var/dedup/d001/aaabbabc (duplicate of /var/dedup/d001/x/y/z/file22170).
-Expected: rm but found #Removing /var/dedup/d001/aaabcbbc (duplicate of /var/dedup/d001/x/y/z/file22250).
-Expected: rm but found #Removing /var/dedup/d001/aaacaabb (duplicate of /var/dedup/d001/x/y/z/file22361).
-Expected: rm but found #Removing /var/dedup/d001/aabacabb (duplicate of /var/dedup/d001/x/y/z/file23001).
-Expected: rm but found #Removing /var/dedup/d001/aabbcacb (duplicate of /var/dedup/d001/x/y/z/file23261).
-Expected: rm but found #Removing /var/dedup/d001/aacabccb (duplicate of /var/dedup/d001/x/y/z/file23997).
-Expected: rm but found #Removing /var/dedup/d001/aacacacc (duplicate of /var/dedup/d001/x/y/z/file24030).
-Expected: rm but found #Removing /var/dedup/d001/aacbbbaa (duplicate of /var/dedup/d001/x/y/z/file24228).
-Expected: rm but found #Removing /var/dedup/d001/aaccbacc (duplicate of /var/dedup/d001/x/y/z/file24478).
-Expected: rm but found #Removing /var/dedup/d001/abaaacaa (duplicate of /var/dedup/d001/x/y/z/file25972).
-Expected: rm but found #Removing /var/dedup/d001/abaccacc (duplicate of /var/dedup/d001/x/y/z/file26590).
-Expected: rm but found #Removing /var/dedup/d001/abbbacbc (duplicate of /var/dedup/d001/x/y/z/file27258).
-Expected: rm but found #Removing /var/dedup/d001/abbbcaaa (duplicate of /var/dedup/d001/x/y/z/file27348).
-Expected: rm but found #Removing /var/dedup/d001/acaacccb (duplicate of /var/dedup/d001/x/y/z/file30205).
-Expected: rm but found #Removing /var/dedup/d001/acbabccb (duplicate of /var/dedup/d001/x/y/z/file31165).
-Expected: rm but found #Removing /var/dedup/d001/acbacbab (duplicate of /var/dedup/d001/x/y/z/file31205).
-Expected: rm but found #Removing /var/dedup/d001/acbbbbab (duplicate of /var/dedup/d001/x/y/z/file31397).
-Expected: rm but found #Removing /var/dedup/d001/accbbabb (duplicate of /var/dedup/d001/x/y/z/file32409).
-Expected: rm but found #Removing /var/dedup/d001/acccabac (duplicate of /var/dedup/d001/x/y/z/file32614).
-Expected: rm but found #Removing /var/dedup/d001/acccacab (duplicate of /var/dedup/d001/x/y/z/file32629).
-Expected: # but found /var/dedup/d002
-Expected: # but found /var/dedup/d004
-Expected: # but found /var/dedup/d006
-Expected: # but found /var/dedup/d008
+Expected: rm but found #rm /var/dedup/d000/x/file4
+Expected: rm but found #rm /var/dedup/d000/x/file5
+Expected: rm but found #rm /var/dedup/d000/x/file7
+Expected: rm but found #rm /var/dedup/d000/x/file9
+Expected: rm but found #rm /var/dedup/d000/x/file10
+Expected: rm but found #rm /var/dedup/d000/x/file11
+Expected: rm but found #rm /var/dedup/d000/x/file12
+Expected: rm but found #rm /var/dedup/d000/x/file13
+Expected: rm but found #rm /var/dedup/d000/x/file17
+Expected: rm but found #rm /var/dedup/d000/x/file18
+Expected: rm but found #rm /var/dedup/d000/x/file22
+Expected: rm but found #rm /var/dedup/d000/x/file23
+Expected: rm but found #rm /var/dedup/d000/x/file27
+Expected: rm but found #rm /var/dedup/d000/x/file28
+Expected: rm but found #rm /var/dedup/d000/x/file29
+Expected: rm but found #rm /var/dedup/d000/x/file32
+Expected: rm but found #rm /var/dedup/d000/x/file34
+Expected: rm but found #rm /var/dedup/d000/x/file35
+Expected: rm but found #rm /var/dedup/d000/x/file36
+Expected: rm but found #rm /var/dedup/d000/x/file37
+Expected: rm but found #rm /var/dedup/d000/x/file44
+Expected: rm but found #rm /var/dedup/d000/x/file46
+Expected: rm but found #rm /var/dedup/d000/x/file50
+Expected: rm but found #rm /var/dedup/d000/x/y/file1
+Expected: rm but found #rm /var/dedup/d000/x/y/file2
+Expected: rm but found #rm /var/dedup/d000/x/y/file3
+Expected: rm but found #rm /var/dedup/d000/x/y/file5
+Expected: rm but found #rm /var/dedup/d000/x/y/file6
+Expected: rm but found #rm /var/dedup/d000/x/y/file9
+Expected: rm but found #rm /var/dedup/d000/x/y/file10
+Expected: rm but found #rm /var/dedup/d000/x/y/file11
+Expected: rm but found #rm /var/dedup/d000/x/y/file12
+Expected: rm but found #rm /var/dedup/d000/x/y/file13
+Expected: rm but found #rm /var/dedup/d000/x/y/file14
+Expected: rm but found #rm /var/dedup/d000/x/y/file18
+Expected: rm but found #rm /var/dedup/d000/x/y/file21
+Expected: rm but found #rm /var/dedup/d000/x/y/file22
+Expected: rm but found #rm /var/dedup/d000/x/y/file23
+Expected: rm but found #rm /var/dedup/d000/x/y/file24
+Expected: rm but found #rm /var/dedup/d000/x/y/file25
+Expected: rm but found #rm /var/dedup/d000/x/y/file27
+Expected: rm but found #rm /var/dedup/d000/x/y/file28
+Expected: rm but found #rm /var/dedup/d000/x/y/file30
+Expected: rm but found #rm /var/dedup/d000/x/y/file31
+Expected: rm but found #rm /var/dedup/d000/x/y/file32
+Expected: rm but found #rm /var/dedup/d000/x/y/file33
+Expected: rm but found #rm /var/dedup/d000/x/y/file34
+Expected: rm but found #rm /var/dedup/d000/x/y/file37
+Expected: rm but found #rm /var/dedup/d000/x/y/file38
+Expected: rm but found #rm /var/dedup/d000/x/y/file41
+Expected: rm but found #rm /var/dedup/d000/x/y/file42
+Expected: rm but found #rm /var/dedup/d000/x/y/file43
+Expected: rm but found #rm /var/dedup/d000/x/y/file44
+Expected: rm but found #rm /var/dedup/d000/x/y/file45
+Expected: rm but found #rm /var/dedup/d000/x/y/file47
+Expected: rm but found #rm /var/dedup/d000/x/y/file48
+Expected: rm but found #rm /var/dedup/d000/x/y/file49
+Expected: rm but found #rm /var/dedup/d000/file169
+Expected: rm but found #rm /var/dedup/d000/file172
+Expected: rm but found #rm /var/dedup/d000/file173
+Expected: rm but found #rm /var/dedup/d000/file175
+Expected: rm but found #rm /var/dedup/d000/file177
+Expected: rm but found #rm /var/dedup/d000/file181
+Expected: rm but found #rm /var/dedup/d000/file184
+Expected: rm but found #rm /var/dedup/d000/file189
+Expected: rm but found #rm /var/dedup/d000/file192
+Expected: rm but found #rm /var/dedup/d000/file195
+Expected: rm but found #rm /var/dedup/d000/file203
+Expected: rm but found #rm /var/dedup/d000/file207
+Expected: rm but found #rm /var/dedup/d000/file210
+Expected: rm but found #rm /var/dedup/d000/file214
+Expected: rm but found #rm /var/dedup/d000/file220
+Expected: rm but found #rm /var/dedup/d000/file222
+Expected: rm but found #rm /var/dedup/d000/file228
+Expected: rm but found #rm /var/dedup/d000/file231
+Expected: rm but found #rm /var/dedup/d000/file233
+Expected: rm but found #rm /var/dedup/d000/file237
+Expected: rm but found #rm /var/dedup/d000/file238
+Expected: rm but found #rm /var/dedup/d000/file242
+Expected: rm but found #rm /var/dedup/d000/file243
+Expected: rm but found #rm /var/dedup/d000/file244
+Expected: rm but found #rm /var/dedup/d000/file245
+Expected: rm but found #rm /var/dedup/d000/file250
+Expected: rm but found #rm /var/dedup/d000/file253
+Expected: rm but found #rm /var/dedup/d000/file274
+Expected: rm but found #rm /var/dedup/d000/file275
+Expected: rm but found #rm /var/dedup/d000/file276
+Expected: rm but found #rm /var/dedup/d000/file278
+Expected: rm but found #rm /var/dedup/d000/file285
+Expected: rm but found #rm /var/dedup/d000/file297
+Expected: rm but found #rm /var/dedup/d001/x/y/file0
+Expected: rm but found #rm /var/dedup/d001/bacbc
+Expected: rm but found #rm /var/dedup/d001/cbbac
+Expected: rm but found #rm /var/dedup/d001/cbcbb
+Expected: rm but found #rm /var/dedup/d001/aaccba
+Expected: rm but found #rm /var/dedup/d001/abaacc
+Expected: rm but found #rm /var/dedup/d001/acacaa
+Expected: rm but found #rm /var/dedup/d001/acacbb
+Expected: rm but found #rm /var/dedup/d001/acbacb
+Expected: rm but found #rm /var/dedup/d001/babaaa
+Expected: rm but found #rm /var/dedup/d001/bccbaa
+Expected: rm but found #rm /var/dedup/d001/bcccca
+Expected: rm but found #rm /var/dedup/d001/cacacc
+Expected: rm but found #rm /var/dedup/d001/cacbaa
+Expected: rm but found #rm /var/dedup/d001/ccaccc
+Expected: rm but found #rm /var/dedup/d001/ababcab
+Expected: rm but found #rm /var/dedup/d001/abbbcab
+Expected: rm but found #rm /var/dedup/d001/abbcaab
+Expected: rm but found #rm /var/dedup/d001/acaabbb
+Expected: rm but found #rm /var/dedup/d001/acaabcc
+Expected: rm but found #rm /var/dedup/d001/acccaab
+Expected: rm but found #rm /var/dedup/d001/baababa
+Expected: rm but found #rm /var/dedup/d001/baaccac
+Expected: rm but found #rm /var/dedup/d001/babaaba
+Expected: rm but found #rm /var/dedup/d001/babcbcc
+Expected: rm but found #rm /var/dedup/d001/bacaabb
+Expected: rm but found #rm /var/dedup/d001/bacbaaa
+Expected: rm but found #rm /var/dedup/d001/bacbccc
+Expected: rm but found #rm /var/dedup/d001/bcaaaca
+Expected: rm but found #rm /var/dedup/d001/bcacabc
+Expected: rm but found #rm /var/dedup/d001/bcacbaa
+Expected: rm but found #rm /var/dedup/d001/bcbabba
+Expected: rm but found #rm /var/dedup/d001/bcbbabb
+Expected: rm but found #rm /var/dedup/d001/bccabca
+Expected: rm but found #rm /var/dedup/d001/bccbabc
+Expected: rm but found #rm /var/dedup/d001/caaacaa
+Expected: rm but found #rm /var/dedup/d001/caabbba
+Expected: rm but found #rm /var/dedup/d001/cbabccc
+Expected: rm but found #rm /var/dedup/d001/cbcbccb
+Expected: rm but found #rm /var/dedup/d001/ccabacc
+Expected: rm but found #rm /var/dedup/d001/ccabbbc
+Expected: rm but found #rm /var/dedup/d001/ccbcbaa
+Expected: rm but found #rm /var/dedup/d001/cccbbca
+Expected: rm but found #rm /var/dedup/d001/aaabbabc
+Expected: rm but found #rm /var/dedup/d001/aaabbbab
+Expected: rm but found #rm /var/dedup/d001/aaabcbbc
+Expected: rm but found #rm /var/dedup/d001/aaacaaac
+Expected: rm but found #rm /var/dedup/d001/aaacaabb
+Expected: rm but found #rm /var/dedup/d001/aaacccba
+Expected: rm but found #rm /var/dedup/d001/aabacabb
+Expected: rm but found #rm /var/dedup/d001/aabacacb
+Expected: rm but found #rm /var/dedup/d001/aabbcacb
+Expected: rm but found #rm /var/dedup/d001/aabcbbbc
+Expected: rm but found #rm /var/dedup/d001/aacabccb
+Expected: rm but found #rm /var/dedup/d001/aacacabb
+Expected: rm but found #rm /var/dedup/d001/aacacacc
+Expected: rm but found #rm /var/dedup/d001/aacbacaa
+Expected: rm but found #rm /var/dedup/d001/aacbbbaa
+Expected: rm but found #rm /var/dedup/d001/aacbcaac
+Expected: rm but found #rm /var/dedup/d001/aaccbacc
+Expected: rm but found #rm /var/dedup/d001/aacccccc
+Expected: rm but found #rm /var/dedup/d001/abaaacaa
+Expected: rm but found #rm /var/dedup/d001/abaaacbb
+Expected: rm but found #rm /var/dedup/d001/abaccacc
+Expected: rm but found #rm /var/dedup/d001/abbbaaab
+Expected: rm but found #rm /var/dedup/d001/abbbacbc
+Expected: rm but found #rm /var/dedup/d001/abbbbcab
+Expected: rm but found #rm /var/dedup/d001/abbbcaaa
+Expected: rm but found #rm /var/dedup/d001/abbcccab
+Expected: rm but found #rm /var/dedup/d001/acaacccb
+Expected: rm but found #rm /var/dedup/d001/acacabbc
+Expected: rm but found #rm /var/dedup/d001/acbabccb
+Expected: rm but found #rm /var/dedup/d001/acbacaca
+Expected: rm but found #rm /var/dedup/d001/acbacbab
+Expected: rm but found #rm /var/dedup/d001/acbbabca
+Expected: rm but found #rm /var/dedup/d001/acbbbbab
+Expected: rm but found #rm /var/dedup/d001/acbccbca
+Expected: rm but found #rm /var/dedup/d001/accbbabb
+Expected: rm but found #rm /var/dedup/d001/accbccaa
+Expected: rm but found #rm /var/dedup/d001/acccabac
+Expected: rm but found #rm /var/dedup/d001/acccabcc
+Expected: rm but found #rm /var/dedup/d001/acccacab
 These groupings were incorrect:
   Expected all but one of:
     /var/dedup/d000/file103
