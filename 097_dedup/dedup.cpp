@@ -20,7 +20,7 @@ void findsame(std::string filename, std::unordered_map<std::string, std::string>
   }
   else {
     std::cout << "#Removing " << filename  << " (duplicate of " << hashmap[str] << ").\n" << std::endl;
-    std::cout << "#rm " << filename << std::endl;
+    std::cout << "rm " << filename << std::endl;
   }
   return;
 }
