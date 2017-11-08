@@ -26,8 +26,14 @@ uint64_t * readFrequencies(const char * fname) {
     fprintf(stderr, "cannot open file\n");
     exit(EXIT_FAILURE);
   }
-  uint64_t * freqArray = new uint64_t[257];
-
+  uint64_t * freqArray = new uint64_t [257];
+  if (freqArray == NULL) {
+    fprintf(stderr, "cannot allocate memory\n");
+    exit(EXIT_FAILURE);
+  }
+  for (int i = 0; i < 257; i++) {
+    freqArray[i] = 0;
+  }
   int c;
   while ((c = fgetc(f)) != EOF) {
     int index = int(c);
