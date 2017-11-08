@@ -21,4 +21,19 @@ void printSym(std::ostream & s, unsigned sym) {
 }
 uint64_t * readFrequencies(const char * fname) {
   //WRITE ME!
+  FILE * f = fopen(fname, "r");
+  if (f == NULL) {
+    fprintf(stderr, "cannot open file\n");
+    exit(EXIT_FAILURE);
+  }
+  uint64_t * freqArray = new uint64_t[257];
+
+  int c;
+  while ((c = fgetc(f)) != EOF) {
+    int index = int(c);
+    (freqArray[index])++;
+  }
+  freqArray[256] = 1;
+  fclose(f);
+  return freqArray;
 }
