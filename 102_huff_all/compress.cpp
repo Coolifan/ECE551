@@ -32,14 +32,20 @@ void writeCompressedOutput(const char* inFile,
 
   //WRITE YOUR CODE HERE!
   //open the input file for reading
-
+  FILE * fin = fopen(inFile, "r");
   //You need to read the input file, lookup the characters in the map,
   //and write the proper bit string with the BitFileWriter
-
+  int c;
+  while ((c = fgetc(fin)) != EOF) {
+    std::map<unsigned, BitString>::const_iterator it = theMap.find(c);
+    bfw.writeBitString(it->second);
+  }
   //dont forget to lookup 256 for the EOF marker, and write it out.
-
+  std::map<unsigned, BitString>::const_iterator it2 = theMap.find(256);
+  bfw.writeBitString(it2->second);
   //BitFileWriter will close the output file in its destructor
   //but you probably need to close your input file.
+  fclose(fin);
 }
 
 int main(int argc, char ** argv) {
@@ -51,7 +57,16 @@ int main(int argc, char ** argv) {
   //Implement main
   //hint 1: most of the work is already done. 
   //hint 2: you can look at the main from the previous tester for 90% of this
-
+  uint64_t * counts = readFrequencies(argv[1]);
+  assert(counts != NULL);
+  Node * tree = buildTree(counts);
+  delete[] counts;
+  std::map<unsigned, BitString> theMap;
+  BitString empty;
+  tree->buildMap(empty, theMap);
+  writeCompressedOutput(argv[1], argv[2], theMap);
+  
+  delete tree;
 
   return EXIT_SUCCESS;
 }
