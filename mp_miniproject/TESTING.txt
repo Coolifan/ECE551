@@ -1,0 +1,158 @@
+A Makefile is provided to compile all the files into myShell program.
+the following command was used to compile the program:
+g++ -ggdb3 -Wall -Werror -pedantic -std=c++11 -c myShell.cpp
+g++ -ggdb3 -Wall -Werror -pedantic -std=c++11 -c parseLine.cpp
+g++ -ggdb3 -Wall -Werror -pedantic -std=c++11 -c execute.cpp
+g++ -ggdb3 -Wall -Werror -pedantic -std=c++11 -c buildinFcns.cpp
+g++ -ggdb3 -Wall -Werror -pedantic -std=c++11 -o myShell myShell.o parseLine.o execute.o buildinFcns.o
+
+make clean could also be used before re-compiling.
+The compiled executable myShell is submitted, along with all the necessary cpp files, header files and object files.
+There are 2 more executables: killcase and ls. These 2 files are used to show the test cases later.
+
+~~~~~~~~~~~~~~~~STEP 1~~~~~~~~~~~~~~~~~~~
+Upon completion of step 1, myShell is able to print the prompt every time it starts to run,
+read the command line input from stdin, do a simple parsing, execute the program
+entered(assuming the path is the full path) and report the exit status of the program. The shell exits
+whenever exit command is entered or EOF is reached.
+
+test example:
+(1). Run ./myShell, and then run command /bin/ls
+     You will see that the shell prompt is printed (the prompt also contains the
+     current working address), and the list program is executed and the files contained
+     in the current working directory are listed, which iscorrect since the shell successfully
+     executed the program. You will also see "Program exited with status 0" after the
+     program exited succesfully. After the program exited, the shell prompt show again
+     and the shell is ready to execute a new program.
+     Similar programs such as /bin/pwd could be executed as well. 
+
+(2). Run ./myShell, and then run ./killcase
+     You will see that the shell prints "Program was killed by signal 11", which is correct
+     since I created a bad program that causes segmentation fault by modifying read-only
+     data. The shell executes the program and received a termination signal of 11.
+
+(3). Run ./myShell, and then run command /bin/helloworld123
+     You will see that the shell prints "Command helloworld123 not found", and the printed
+     message was added in step 2. The output is correct since the input command does not exist.
+     So execve will fail and print the error message. This testcase was further inplemented in step 2.
+
+(4). Run ./myShell, and enter Ctrl+D, and hit enter key
+     You will see that the shell exits, since EOF is encountered. If ctrl+C is entered, the shell also exits.
+(5). Run ./myShell, and enter abcCtrl+D, you will see that you cannot further modify the
+     command (abc) since EOF was entered. Then, if you enter Ctrl+D again, the shell will exit.
+
+~~~~~~~~~~~~~~~~STEP 2~~~~~~~~~~~~~~~~~~~~~~~
+Upon completion of step 2, the shell is able to search PATH environment variable for
+commands and run them, no matter if you enter a command with / character or not.
+The shell could also correctly take arguments separated by white spaces, including
+whitespace with escape backslash \ character
+ 
+test example:
+(1). Run ./myShell, and run command ./ls a\ b c\ \ d
+     You will see that the program ls is executed and three lines are printed.
+     The first line is ./ls, the second line is a b, and the third line shows c  d.
+     I made the program ls it just prints out all the argv's of its main function.
+     I name the program intentionally to show the difference between an absolute path and a relative path.
+     Executing ./ls will print out several lines, but executing ls will list the files
+     under current path. Since ls does not contain a / in it, the shell searches
+     each directory spcified in PATH and execute the program if it is found. You can also see the parsed arguments.
+
+(2). Run ./myShell, and run command  helloworld123
+     You will see that the shell prints "Command helloworld123 not found", which is correct since
+     the shell searched each directory in the PATH but didn't find helloworld123.
+     This is similar to testcase 3 of step 1, except the command doesn't contain a / character
+
+
+(3). Run ./myShell, and run command echo a\  b c \ d
+     You will see the printed output a  b c  d, which is correct since all escaped whitespaces
+     were correctly parsed and passed into execve. You can also run ./ls with the same arguments to
+     print out every single argument.
+     
+(4). Run ./myShell, and run echo           a                   b
+     You will see the output a b, that is , the output is separated by only 1 whitespace, instead of
+     the multiple whitespaces as the input arguments
+     
+(5). Run ./myShell, and run command ls -a
+     You will see the complete list of files within the directory, this time, the command ls doesn t contain
+     a / so myShell search through PATH and find /bin/ls that matches the command name, and executed it
+~~~~~~~~~~~~~~~~~~~~~~STEP 3~~~~~~~~~~~~~~~~~
+Upon completion of step 3, the shell is able to realize cd functionality and interpret
+variables. Up to this point, the shell is able to control the environment variable
+by "set" command and "export" command. The shell prompt now shows the current working directory as well.
+
+test example:
+(1). Run ./myShell, and run command cd ..
+     	 	  , and run command pwd
+     		  , and run command cd ~
+     		  , and run command cd /bin/helloworld123
+
+     You will see that the first cd command changes current directory to the parent
+     directory (by checking the shell prompt), and after pwd is entered, the current working directory,
+     which is the parent directory of the directory when we began testing, is printed out.
+     Next, cd ~ command will change the current directory to the home directory. And the last
+     cd command will generate "-myShell: cd: /bin/helloworld123: No such file or directory" error
+     message since the path specified does not exist.
+
+(2). Run ./myShell, and run command set a 10 
+     	 	    and run command set a# 10
+		    and run command set a
+		    and run command set 
+     These 4 cases demonstrates the parsing of set command.
+     The valid variable names are combinations of 1~9, a~Z, and _. And the validity is always determined based on this rule.
+     The contiguous valid string after set  is interpreted as the variable name, and the next contiguous string that begins with
+     a non-whitespace character is interpreted as the variable value. This value string could contain middle and endding whitespaces
+     The first case doesn't generate any error since a is a valid variable name.
+     The second testcase will generate error message "Invalid variable name: must be a
+     combination of numbers, letters and underscore", since a# is not a valid variable name.
+     The third testcase will succeed. Here, if no value is entered for the corresponding variable,
+     it is stored as null character.
+     The fourth testcase will generate error message "Usage: set var value", since set command must contain a valid variable.
+
+(3). Run ./myShell, and run command set a 10
+     	 	  , and then run command export a
+		  , and then run command env
+		  , and then run command set PATH hello world
+		  , and then run command env
+		  , and then run command export PATH
+		  , and then run command env
+
+      These 7 testcases demonstrates the combination operations of export and set, as well as
+      the manipulation of environment variables.
+      After we run the first 3 commands,(set a 10, then export a, then env), we can see that
+      the list of environment variables now contains a new entry "a=10", shown in the last line of the list.
+      Then we run the next 2 commands, (set PATH hello world,then env), we can see that the list of
+      environment variables is printed out again, and it remains the same as before.
+      This is correct since he haven't export PATH after we set it.
+      Then we run the last 2 commands, (export PATH, then env), we will see that the error message
+      "Command env not found" is printed. This is correct because after we exported PATH, we modified
+      the PATH variable which is used by other functions to search for specified programs. Since PATH
+      now is no longer a string containing valid file path, env will fail to execute.
+
+(4). Run ./myShell, and run command set 1 666,
+       	 	  , and then run command echo $1
+		  , and then run command echo 1$1
+		  , and then run command echo $
+		  , and then run command echo $$
+		  , and then run command echo $1$
+		  , and then run command echo $a$1
+		  , and then run command echo $100
+		  , and then run command echo $1#
+		    and then run command ./ls $1
+	These commands demonstrates the access to variables and the parsing of variables.
+	Firstly, the variable 1 now has the value 666.
+	 echo $1 command will print 666 to stdout. $varname is replaced with its corresponding value.
+	 echo 1$1 command will print 1666 to stdout. So here, characters that come before $ is retained.
+	 echo $ command will print a $ sign, since no variable name is specified
+	 echo $$ command will print an error message "Invalid variable name", since the
+	variable name is interpreted as $ and it is not a valid variable name.
+	 echo $1$ command will print 666$, since $1 is replaced with its value 666,
+	and it comes before an ending $ sign, the dollar sign is retained.
+	 echo $a$1 command will print 666, here, $a was not set before so it doesn't
+	have a value. $1 is replaced with its value 666 and thus the final output is 666.
+	 echo $100 command will not print any results, since the variable names is interpreted
+	as 100 and this variable has not been set before, even though $100 literally contains a variable $1.
+	 echo $1# command will print an error message of "Invalid variable name", since the
+	variable name contains invalid character #.
+	 ./ls $1 command will print two lines on stdout. The first line is ./ls and second line being 666.
+	The ls executable simply prints its argv's, and we can see that when pass in $1 as argv[1], it is
+	interpreted as 666 instead of the normal $1 (2 chars)
